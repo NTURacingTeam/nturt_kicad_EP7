@@ -515,13 +515,14 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -529,15 +530,28 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "CL",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1008,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -555,6 +569,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -572,6 +587,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1006,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -589,6 +605,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1006,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -606,6 +623,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.11,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.111,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -623,6 +641,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -640,6 +659,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -657,16 +677,17 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "SPI",
+        "name": "PowerThick",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.5,
+        "track_width": 1.0,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -674,12 +695,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "UART",
-        "pcb_color": "rgb(191, 125, 43)",
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -690,14 +712,33 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "UART",
+        "pcb_color": "rgb(191, 125, 43)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.141,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
@@ -711,328 +752,229 @@
     "net_colors": {
       "+3V3": "rgb(255, 153, 0)",
       "+5V": "rgb(255, 0, 255)",
-      "GND": "rgb(132, 132, 132)"
+      "/CAN 1/CAN_L": "rgb(255, 0, 255)",
+      "GND": "rgb(132, 132, 132)",
+      "Net-(U9-OSC1)": "rgb(132, 132, 132)",
+      "unconnected-(U2-NC-Pad3)": "rgb(255, 153, 0)"
     },
     "netclass_assignments": {
       "+3V3_M2": [
         "Power"
       ],
-      "/5V_3V3/5V_buck": [
-        "power_thick"
-      ],
-      "/5V_3V3/5V_buck_rpi": [
-        "3A"
-      ],
-      "/5V_3V3/5V_ext": [
-        "power_thick"
-      ],
-      "/5V_3V3/5V_prefuse": [
-        "power_thick"
-      ],
-      "/5V_3V3/5V_premeasure": [
-        "power"
-      ],
-      "/5V_3V3/5V_premeasure_rpi": [
-        "3A"
-      ],
-      "/CAN 1/CAN+": [
+      "/CAN 1/CAN_H": [
         "CAN"
       ],
-      "/CAN 1/CAN-": [
+      "/CAN 1/CAN_L": [
         "CAN"
       ],
-      "/CAN 2/CAN+": [
+      "/CAN 2/CAN_H": [
         "CAN"
       ],
-      "/CAN 2/CAN-": [
+      "/CAN 2/CAN_L": [
         "CAN"
       ],
-      "/CAN 3/CAN+": [
+      "/CAN 3/CAN_H": [
         "CAN"
       ],
-      "/CAN 3/CAN-": [
+      "/CAN 3/CAN_L": [
         "CAN"
       ],
-      "/CAN 4/CAN+": [
+      "/CAN 4/CAN_H": [
         "CAN"
       ],
-      "/CAN 4/CAN-": [
+      "/CAN 4/CAN_L": [
         "CAN"
       ],
-      "/EMI/24V_lowNoise": [
-        "power_thick"
-      ],
-      "/EMI/24V_noiseSourceN": [
-        "power_thick"
-      ],
-      "/EMI/24V_noiseSourceP": [
-        "power_thick"
-      ],
-      "/electrical1/CAN1_H": [
-        "CAN"
-      ],
-      "/electrical1/CAN1_L": [
-        "CAN"
-      ],
-      "/electrical1/CAN2_H": [
-        "CAN"
-      ],
-      "/electrical1/CAN2_L": [
-        "CAN"
-      ],
-      "/electrical1/CAN3_H": [
-        "CAN"
-      ],
-      "/electrical1/CAN3_L": [
-        "CAN"
-      ],
-      "/electrical2/BL_SW": [
-        "power"
-      ],
-      "/electrical2/VCC_brakelightprefuse": [
-        "power_thick"
-      ],
-      "/electrical2/buzzer_outbox": [
-        "power_thick"
-      ],
-      "/electrical3/buzzer_outbox": [
-        "power_thick"
-      ],
-      "/inbox/24V_lowNoise": [
-        "power_thick"
-      ],
-      "/outbox/24V_noiseSource1": [
-        "power_thick"
-      ],
-      "/outbox/24V_noiseSourceN": [
-        "power_thick"
-      ],
-      "/outbox/24V_noiseSourceP": [
-        "power_thick"
-      ],
-      "/power/24V_noisyN": [
-        "power_thick"
-      ],
-      "/power/24V_noisyP": [
-        "power_thick"
-      ],
-      "/power/24V_noisyn": [
-        "power_thick"
-      ],
-      "/power/24V_prefuse": [
-        "power_thick"
-      ],
-      "/power/24V_premeasure": [
-        "power_thick"
-      ],
-      "/power/5V_LDO": [
-        "power_thick"
-      ],
-      "/power/5V_buck": [
-        "power_thick"
-      ],
-      "/power/5V_buck{slash}ext": [
-        "power_thick"
-      ],
-      "/power/5V_prefuse": [
-        "power_thick"
-      ],
-      "/vcu mcu/current loop sensors/CL_CH1": [
+      "/vcu mcu/CL_CH1": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH10": [
+      "/vcu mcu/CL_CH10": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH11": [
+      "/vcu mcu/CL_CH11": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH12": [
+      "/vcu mcu/CL_CH12": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH13": [
+      "/vcu mcu/CL_CH13": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH14": [
+      "/vcu mcu/CL_CH14": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH15": [
+      "/vcu mcu/CL_CH15": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH2": [
+      "/vcu mcu/CL_CH16": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH3": [
+      "/vcu mcu/CL_CH17": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH4": [
+      "/vcu mcu/CL_CH18": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH5": [
+      "/vcu mcu/CL_CH19": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH6": [
+      "/vcu mcu/CL_CH2": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH7": [
+      "/vcu mcu/CL_CH20": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH8": [
+      "/vcu mcu/CL_CH3": [
         "CL"
       ],
-      "/vcu mcu/current loop sensors/CL_CH9": [
+      "/vcu mcu/CL_CH4": [
         "CL"
       ],
-      "GND": [
-        "power_thick"
-      ],
-      "Net-(IC2-BOOT)": [
-        "power_thick"
-      ],
-      "Net-(IC3-BOOT)": [
-        "power_thick"
-      ],
-      "Net-(IC4-BOOT)": [
-        "power_thick"
-      ],
-      "Net-(J11-Pin_1)": [
+      "/vcu mcu/CL_CH5": [
         "CL"
       ],
-      "Net-(J11-Pin_11)": [
+      "/vcu mcu/CL_CH6": [
         "CL"
       ],
-      "Net-(J11-Pin_13)": [
+      "/vcu mcu/CL_CH7": [
         "CL"
       ],
-      "Net-(J11-Pin_15)": [
+      "/vcu mcu/CL_CH8": [
         "CL"
       ],
-      "Net-(J11-Pin_17)": [
+      "/vcu mcu/CL_CH9": [
         "CL"
       ],
-      "Net-(J11-Pin_19)": [
+      "Net-(C114-Pad1)": [
+        "PowerThick"
+      ],
+      "Net-(C12-Pad1)": [
+        "PowerThick"
+      ],
+      "Net-(J8-Pin_1)": [
         "CL"
       ],
-      "Net-(J11-Pin_21)": [
+      "Net-(J8-Pin_10)": [
         "CL"
       ],
-      "Net-(J11-Pin_23)": [
+      "Net-(J8-Pin_11)": [
         "CL"
       ],
-      "Net-(J11-Pin_25)": [
+      "Net-(J8-Pin_12)": [
         "CL"
       ],
-      "Net-(J11-Pin_27)": [
+      "Net-(J8-Pin_13)": [
         "CL"
       ],
-      "Net-(J11-Pin_29)": [
+      "Net-(J8-Pin_14)": [
         "CL"
       ],
-      "Net-(J11-Pin_3)": [
+      "Net-(J8-Pin_15)": [
         "CL"
       ],
-      "Net-(J11-Pin_5)": [
+      "Net-(J8-Pin_16)": [
         "CL"
       ],
-      "Net-(J11-Pin_7)": [
+      "Net-(J8-Pin_17)": [
         "CL"
       ],
-      "Net-(J11-Pin_9)": [
+      "Net-(J8-Pin_18)": [
         "CL"
       ],
-      "Net-(J16-Pin_2)": [
+      "Net-(J8-Pin_19)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_2)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_20)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_21)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_22)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_23)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_24)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_25)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_26)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_27)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_28)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_29)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_3)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_30)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_31)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_32)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_33)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_34)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_35)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_36)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_37)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_38)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_39)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_4)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_40)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_5)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_6)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_7)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_8)": [
+        "CL"
+      ],
+      "Net-(J8-Pin_9)": [
+        "CL"
+      ],
+      "Net-(U14-CANH)": [
         "CAN"
       ],
-      "Net-(J16-Pin_4)": [
-        "CAN"
-      ],
-      "Net-(J18-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J18-Pin_4)": [
-        "CAN"
-      ],
-      "Net-(J21-Pin_1)": [
-        "CAN"
-      ],
-      "Net-(J21-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J22-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J22-Pin_4)": [
-        "CAN"
-      ],
-      "Net-(J23-Pin_1)": [
-        "CAN"
-      ],
-      "Net-(J23-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J24-Pin_1)": [
-        "CAN"
-      ],
-      "Net-(J24-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J25-Pin_1)": [
-        "CAN"
-      ],
-      "Net-(J25-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J27-Pin_1)": [
-        "CAN"
-      ],
-      "Net-(J27-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(J28-Pin_1)": [
-        "CAN"
-      ],
-      "Net-(J28-Pin_2)": [
-        "CAN"
-      ],
-      "Net-(JP8-B)": [
-        "power_thick"
-      ],
-      "Net-(R41-Pad1)": [
-        "power_thick"
-      ],
-      "Net-(R46-Pad1)": [
-        "power_thick"
-      ],
-      "Net-(R64-Pad1)": [
-        "power_thick"
-      ],
-      "Net-(U1-CANH)": [
-        "CAN"
-      ],
-      "Net-(U1-CANL)": [
-        "CAN"
-      ],
-      "Net-(U10-CANH)": [
-        "CAN"
-      ],
-      "Net-(U10-CANL)": [
-        "CAN"
-      ],
-      "Net-(U11-CANH)": [
-        "CAN"
-      ],
-      "Net-(U11-CANL)": [
-        "CAN"
-      ],
-      "Net-(U13-CANH)": [
-        "CAN"
-      ],
-      "Net-(U13-CANL)": [
-        "CAN"
-      ],
-      "Net-(U15-CANH)": [
-        "CAN"
-      ],
-      "Net-(U15-CANL)": [
+      "Net-(U14-CANL)": [
         "CAN"
       ],
       "Net-(U17-CANH)": [
@@ -1041,35 +983,17 @@
       "Net-(U17-CANL)": [
         "CAN"
       ],
-      "Net-(U18-CANH)": [
-        "CAN"
-      ],
-      "Net-(U18-CANL)": [
-        "CAN"
-      ],
       "Net-(U19-CANH)": [
         "CAN"
       ],
       "Net-(U19-CANL)": [
         "CAN"
       ],
-      "Net-(U20-CANH)": [
+      "Net-(U4-CANH)": [
         "CAN"
       ],
-      "Net-(U20-CANL)": [
+      "Net-(U4-CANL)": [
         "CAN"
-      ],
-      "Net-(U3-CANH)": [
-        "CAN"
-      ],
-      "Net-(U3-CANL)": [
-        "CAN"
-      ],
-      "brakelight_outboxN": [
-        "power_thick"
-      ],
-      "brakelight_outboxP": [
-        "power_thick"
       ]
     },
     "netclass_patterns": []
@@ -1341,40 +1265,24 @@
       "CAN 4"
     ],
     [
-      "bb1284bc-9c6c-4e5b-ba1e-7374c157f014",
-      "IMU"
+      "ecd4d328-e3cd-48a1-a856-079e47ec5022",
+      "current loop 16"
     ],
     [
-      "239bf433-d658-4270-929b-157992f20677",
-      "button_debounce"
+      "b1018f6f-70f3-4786-808b-d481e967b58d",
+      "current loop 17"
     ],
     [
-      "58c8fb18-8c78-4385-b57a-d987360bfecd",
-      "button3"
+      "360ec283-bb4b-47c2-882c-7a2120e8746a",
+      "current loop 18"
     ],
     [
-      "34038e31-a36e-4d80-b99c-e8b4c99e88d2",
-      "button1"
+      "cd51a9d7-acd8-46f3-9b3a-6285e7bb1695",
+      "current loop 19"
     ],
     [
-      "8285e68c-210f-4c41-a240-f5a77178dbdc",
-      "button2"
-    ],
-    [
-      "11fb99d3-9921-487c-b162-f10d0cce3876",
-      "button5"
-    ],
-    [
-      "f8d3a835-335b-4618-abe2-0ca16e26bc2b",
-      "button4"
-    ],
-    [
-      "1234d6bd-0145-414e-b0fa-9145c62d64cf",
-      "button7"
-    ],
-    [
-      "df00ff88-7d60-43b9-9786-d96032bc9d22",
-      "button6"
+      "b080232c-63fe-4b34-b36a-db7f5dc8e21f",
+      "current loop 20"
     ],
     [
       "844de0d3-0890-410b-9705-fe886bc6b646",

@@ -1,0 +1,304 @@
+(footprint "EXCX4CE900U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EXC-X4CE900U")
+	(tags "Common Mode Noise Filter (4-Pin)")
+	(property "Reference" "FL3"
+		(at 0 0.187 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "83729ff4-135b-4c30-902f-3f480b86971b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EXC14CE121U"
+		(at 0 0.187 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "89724f4a-8b3d-43d2-afb8-f91ddeb067a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AWE0000/AWE0000C258.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daffdb67-222a-493a-98a0-abee2f834860")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Series/Type: Common mode Filters (0202 small size), Size [LW] (mm): 0.650.50, Height (mm): 0.3, Impedance [Common Mode] (): 90, Rated Voltage [DC] (V): 5, Rated Current [DC] (mA): 100, DC Resistance [max.] (): 3.0+/-30%, Number of circuit: 1"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfbba6dc-cf76-404d-af6a-84d602ff05e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c05f2496-6ba0-4f29-8215-62da9f6662ed")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.065)
+			)
+		)
+	)
+	(property "Mouser Part Number" "667-EXC-X4CE900U"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19bdb2a8-181a-407d-8d45-986c9b9f798f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.065)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXC-X4CE900U?qs=r%2Fc3XikQTkKbkY%2FGNti4Lw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84e0c91a-a3cd-4f89-aefd-e25de6516022")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.065)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2398caf-23a8-4d03-b3ec-bf4233dde84c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.065)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "EXC-X4CE900U"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dd40dba-5ad0-4076-8261-42226ec24792")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.065)
+			)
+		)
+	)
+	(property "Simulation Data" "https://industrial.panasonic.com/content/data/CC/files/EXCX4CE900U.zip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6a8b846-801a-497a-9c52-645bfffbdaed")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.065)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 0.7)
+		(end -0.3 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2bdab41-cd4c-4359-853c-224dc82bd7b5")
+	)
+	(fp_line
+		(start -0.1 0.7)
+		(end -0.1 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7f05fe0-78f7-4b8c-8e82-87acace2d8f4")
+	)
+	(fp_arc
+		(start -0.3 0.7)
+		(mid -0.2 0.6)
+		(end -0.1 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "880482c0-879e-42e0-bc39-b4afc112a613")
+	)
+	(fp_arc
+		(start -0.1 0.7)
+		(mid -0.2 0.8)
+		(end -0.3 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "687eb45b-270d-4443-a726-15a778d96067")
+	)
+	(fp_line
+		(start -0.837 -0.925)
+		(end 0.837 -0.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6c245f2-6d1a-46a8-8462-89f1b0456322")
+	)
+	(fp_line
+		(start -0.837 1)
+		(end -0.837 -0.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b27bac6-2ef9-41fc-ba3b-a3bbc5677bf3")
+	)
+	(fp_line
+		(start 0.837 -0.925)
+		(end 0.837 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a077be4b-f619-43a8-9d2f-63afcb7984c4")
+	)
+	(fp_line
+		(start 0.837 1)
+		(end -0.837 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9829311d-ebad-4c45-bbaf-37f0ed22c84f")
+	)
+	(fp_line
+		(start -0.325 -0.25)
+		(end 0.335 -0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b9f1248-81dd-4385-bdd1-7a032c01e179")
+	)
+	(fp_line
+		(start -0.325 0.25)
+		(end -0.325 -0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fc287d0-1902-4c34-9c61-00169dd63edc")
+	)
+	(fp_line
+		(start 0.335 -0.25)
+		(end 0.335 0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95cff084-2a64-4245-acd4-97763ed625a4")
+	)
+	(fp_line
+		(start 0.335 0.25)
+		(end -0.325 0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e99abac1-6e8a-472b-89c2-9f579b691872")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.187 180)
+		(layer "F.Fab")
+		(uuid "daec2167-d767-49ce-a628-a13cdfdb91f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.225 0.274999)
+		(size 0.225 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb63091f-0288-43f7-ac95-d700872cee70")
+	)
+	(pad "2" smd rect
+		(at 0.225 0.274999)
+		(size 0.225 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e386e351-f4d9-4452-a633-b86f3d164858")
+	)
+	(pad "3" smd rect
+		(at 0.225 -0.274999)
+		(size 0.225 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49680962-5eef-4d8f-8eb3-7b404d61a4fe")
+	)
+	(pad "4" smd rect
+		(at -0.225 -0.274999)
+		(size 0.225 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2df3a1b-1fd6-4118-8aad-371410be53a3")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\kuoja\\Documents\\GitHub\\nturt_kicad\\EP6\\Project_Library_EP6\\SamacSys_Parts.3dshapes\\EXC-X4CE900U.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

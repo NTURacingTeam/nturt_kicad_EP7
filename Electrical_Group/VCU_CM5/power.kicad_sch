@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c04015e6-7e66-46d2-972b-d1aebb688e83")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
 		(date "2026-02-25")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -4962,7 +4962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nturt_kicad_lib_EP6:BAT_1056"
+		(property "Footprint" "nturt_kicad_lib_EP7:BAT_1056"
 			(at 64.77 129.54 0)
 			(effects
 				(font
@@ -8815,7 +8815,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/80d1c5c9-220d-48c3-82a0-691038908f33"
-					(page "35")
+					(page "12")
 				)
 			)
 		)
@@ -8877,7 +8877,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/80d1c5c9-220d-48c3-82a0-691038908f33"
-					(page "3")
+					(page "11")
 				)
 			)
 		)

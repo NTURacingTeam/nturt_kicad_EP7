@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "10e2c70a-83ab-4804-b444-76b4d64aa017")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
 		(date "2026-02-25")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")

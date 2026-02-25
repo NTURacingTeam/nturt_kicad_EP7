@@ -290,7 +290,7 @@
 		(uuid "c2df3a1b-1fd6-4118-8aad-371410be53a3")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\kuoja\\Documents\\GitHub\\nturt_kicad\\EP6\\Project_Library_EP6\\SamacSys_Parts.3dshapes\\EXC-X4CE900U.stp"
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/EXC-X4CE900U.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2382446a-f849-4fd6-95d1-ee6a8ac974e7")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
 		(date "2026-02-25")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -778,7 +778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0274789f-eb76-46c0-9f37-56152c04fc16")
-		(property "Reference" "C20"
+		(property "Reference" "C30"
 			(at 130.81 91.4462 0)
 			(effects
 				(font
@@ -924,7 +924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a00b6b8-5fb3-427d-86f0-7a1bed65a23e")
-		(property "Reference" "C21"
+		(property "Reference" "C31"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -1070,7 +1070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e10355a-284d-4fa1-8103-968b75499556")
-		(property "Reference" "R19"
+		(property "Reference" "R29"
 			(at 137.16 82.55 90)
 			(effects
 				(font
@@ -1214,7 +1214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84510ce0-e527-48ad-aebc-bdbdc49076d1")
-		(property "Reference" "R18"
+		(property "Reference" "R28"
 			(at 113.03 91.4399 0)
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b37d6499-ba6b-4b33-be88-7bce1858bed4")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR059"
 			(at 146.05 106.68 0)
 			(effects
 				(font
@@ -1503,7 +1503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8184cb3-5f1a-4c9f-9546-af8d1819931b")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR058"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -1645,7 +1645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f35f5412-5283-4b0e-b68e-e4fd2d36ab18")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 152.4 91.4399 90)
 			(effects
 				(font

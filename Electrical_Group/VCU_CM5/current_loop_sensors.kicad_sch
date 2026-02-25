@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ccc6076e-c03a-435a-b138-832f1a77844a")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
 		(date "2026-02-25")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -8278,7 +8278,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "28")
+					(page "27")
 				)
 			)
 		)
@@ -8341,7 +8341,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "24")
+					(page "23")
 				)
 			)
 		)
@@ -8404,7 +8404,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "25")
+					(page "24")
 				)
 			)
 		)
@@ -8467,7 +8467,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "20")
+					(page "19")
 				)
 			)
 		)
@@ -8530,7 +8530,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "26")
+					(page "25")
 				)
 			)
 		)
@@ -8593,7 +8593,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "23")
+					(page "22")
 				)
 			)
 		)
@@ -8656,7 +8656,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "7")
+					(page "36")
 				)
 			)
 		)
@@ -8719,7 +8719,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "22")
+					(page "21")
 				)
 			)
 		)
@@ -8782,7 +8782,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "29")
+					(page "28")
 				)
 			)
 		)
@@ -8845,7 +8845,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "27")
+					(page "26")
 				)
 			)
 		)
@@ -8908,7 +8908,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "14")
+					(page "17")
 				)
 			)
 		)
@@ -9097,7 +9097,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "9")
+					(page "38")
 				)
 			)
 		)
@@ -9160,7 +9160,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "6")
+					(page "35")
 				)
 			)
 		)
@@ -9223,7 +9223,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "21")
+					(page "20")
 				)
 			)
 		)
@@ -9286,7 +9286,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "8")
+					(page "37")
 				)
 			)
 		)
@@ -9349,7 +9349,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "19")
+					(page "18")
 				)
 			)
 		)
@@ -9412,7 +9412,7 @@
 		(instances
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
-					(page "5")
+					(page "34")
 				)
 			)
 		)

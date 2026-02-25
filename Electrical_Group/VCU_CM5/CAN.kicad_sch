@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "9983b4e6-20b3-47e5-8d7d-702fb1ba56bf")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
 		(date "2026-02-25")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -1892,7 +1892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05b8db4d-81e9-48cb-a649-b3028669c0d3")
-		(property "Reference" "R15"
+		(property "Reference" "R155"
 			(at 106.68 78.74 90)
 			(effects
 				(font
@@ -1972,7 +1972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d0f4cb5-3761-4dd3-a955-b3786d7a1692")
-		(property "Reference" "R16"
+		(property "Reference" "R156"
 			(at 106.68 92.71 90)
 			(effects
 				(font
@@ -2052,7 +2052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12baa0d6-bc8d-44d9-910b-1c69640be709")
-		(property "Reference" "FL2"
+		(property "Reference" "FL4"
 			(at 151.13 80.01 90)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "213a7394-5831-42f3-895f-8a10bfc89ffe")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0218"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -2278,7 +2278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29caa39d-e5cb-4b62-be69-c5da4dddc99c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0227"
 			(at 123.19 105.41 0)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e766f8e-8a69-4ead-89a2-ef35f3f8d2fd")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0228"
 			(at 125.73 78.74 0)
 			(effects
 				(font
@@ -2435,7 +2435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60910020-eaae-4c43-8efb-ba423b17fe2b")
-		(property "Reference" "C19"
+		(property "Reference" "C137"
 			(at 90.17 107.9563 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "687be611-0aa4-4591-b317-374395664aa5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0219"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -2596,7 +2596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "713efe22-0972-4dc7-97e0-e4f2b5e6680f")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0226"
 			(at 120.65 78.74 0)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7935065a-bbc3-4861-8f9b-367f1e724163")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0230"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -2753,7 +2753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9cb9129-e8ef-49de-a0c7-7fcf682c8962")
-		(property "Reference" "U4"
+		(property "Reference" "U17"
 			(at 125.3841 96.52 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa1b40a-9157-4707-9007-001f3319a55c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0220"
 			(at 87.63 109.22 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b17a3d04-e5fb-47e3-858b-81a2f664811c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0221"
 			(at 87.63 119.38 0)
 			(effects
 				(font
@@ -3012,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3accaf4-9f00-4e51-ac6d-0be15d913045")
-		(property "Reference" "C18"
+		(property "Reference" "C136"
 			(at 80.01 107.9563 0)
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea789258-64d1-4231-9f87-8481dad6d23b")
-		(property "Reference" "D6"
+		(property "Reference" "D36"
 			(at 171.45 95.2499 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef14118a-b939-4c04-96f9-e9b410fd195a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0224"
 			(at 109.22 106.68 0)
 			(effects
 				(font
@@ -3258,7 +3258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f63b41b2-515a-4a16-83fa-677789c10ad9")
-		(property "Reference" "R17"
+		(property "Reference" "R158"
 			(at 106.68 95.2499 0)
 			(effects
 				(font

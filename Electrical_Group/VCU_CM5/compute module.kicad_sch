@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "99422214-b325-44a4-b242-5508908c9d61")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
 		(date "2026-02-25")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -12359,7 +12359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "nturt_kicad_lib_EP7:Raspberry-Pi-5-Compute-Module"
 			(at 218.44 114.3 0)
 			(effects
 				(font
@@ -13188,7 +13188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "nturt_kicad_lib_EP7:Raspberry-Pi-5-Compute-Module"
 			(at 227.33 109.22 0)
 			(effects
 				(font

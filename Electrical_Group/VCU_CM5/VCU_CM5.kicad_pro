@@ -515,6 +515,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -532,6 +533,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -549,6 +551,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1008,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -566,6 +569,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -583,6 +587,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1006,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -600,6 +605,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1006,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -617,6 +623,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.11,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.111,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -634,6 +641,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -651,6 +659,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -668,6 +677,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -685,6 +695,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -702,6 +713,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -719,6 +731,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.141,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -747,30 +760,6 @@
     "netclass_assignments": {
       "+3V3_M2": [
         "Power"
-      ],
-      "/CAN 1/CAN_H": [
-        "CAN"
-      ],
-      "/CAN 1/CAN_L": [
-        "CAN"
-      ],
-      "/CAN 2/CAN_H": [
-        "CAN"
-      ],
-      "/CAN 2/CAN_L": [
-        "CAN"
-      ],
-      "/CAN 3/CAN_H": [
-        "CAN"
-      ],
-      "/CAN 3/CAN_L": [
-        "CAN"
-      ],
-      "/CAN 4/CAN_H": [
-        "CAN"
-      ],
-      "/CAN 4/CAN_L": [
-        "CAN"
       ],
       "/RPI CAN0/CAN_H": [
         "CAN"

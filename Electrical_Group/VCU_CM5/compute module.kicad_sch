@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "VCU_CM5")
-		(date "2026-02-25")
-		(rev "1.2")
+		(date "2026-02-28")
+		(rev "1.3")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -6851,6 +6851,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 77.47) (xy 314.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3700ff92-658e-44a0-aaae-391f9fecda2b")
+	)
+	(wire
+		(pts
 			(xy 247.65 140.97) (xy 247.65 148.59)
 		)
 		(stroke
@@ -7971,6 +7981,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 80.01) (xy 314.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d208ddf-e33b-48cc-bd27-e108f7cbb075")
+	)
+	(wire
+		(pts
 			(xy 246.38 74.93) (xy 265.43 74.93)
 		)
 		(stroke
@@ -8368,6 +8388,16 @@
 			(type default)
 		)
 		(uuid "95c758d0-c661-4cfc-bc1b-d3469662d2a2")
+	)
+	(wire
+		(pts
+			(xy 320.04 77.47) (xy 339.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968b10e9-1a42-4ae5-aaff-39b945f2ffb2")
 	)
 	(bus
 		(pts
@@ -9411,6 +9441,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 80.01) (xy 339.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e858d540-0b20-4f03-8800-e74d5b1156ea")
+	)
+	(wire
+		(pts
 			(xy 265.43 105.41) (xy 246.38 105.41)
 		)
 		(stroke
@@ -9899,6 +9939,16 @@
 		)
 		(uuid "136cabc4-9910-48b0-988f-0121ae048ccc")
 	)
+	(label "USB3_0.D-"
+		(at 298.45 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13998072-69d7-4182-9518-73d5bd7df750")
+	)
 	(label "SD.D2"
 		(at 115.57 113.03 0)
 		(effects
@@ -10189,6 +10239,16 @@
 		)
 		(uuid "4f65a304-e0b7-4b91-aa73-43938f0da00a")
 	)
+	(label "USB3_0.D+"
+		(at 298.45 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fd271ef-ed28-46f2-a003-cbed0b4f8784")
+	)
 	(label "USB3_0.D-"
 		(at 182.88 69.85 180)
 		(effects
@@ -10399,6 +10459,16 @@
 		)
 		(uuid "7a91d8c9-cddf-4982-9d47-fe69024bcca4")
 	)
+	(label "USB3_1.D+"
+		(at 339.09 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b6e61cd-6aed-4a88-91a2-28837b2ed5f4")
+	)
 	(label "40P.GPIO5"
 		(at 49.53 67.31 180)
 		(effects
@@ -10528,6 +10598,16 @@
 			(justify left bottom)
 		)
 		(uuid "959fc7e2-c35c-444c-be7d-2555e526d33a")
+	)
+	(label "USB3_1.D-"
+		(at 339.09 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9812302c-470e-4fe3-a715-6a47c6a3d735")
 	)
 	(label "SD.D3"
 		(at 115.57 102.87 0)
@@ -11672,6 +11752,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 317.5 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f875dee-a139-45df-9328-8bcf6e18cf0a")
+		(property "Reference" "R133"
+			(at 317.5 72.39 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 317.5 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f2c7035-b54c-4629-9631-cf2b8cbbc8df")
+		)
+		(pin "1"
+			(uuid "cd441c8f-2b28-441e-a74a-683939d19d01")
+		)
+		(instances
+			(project "VCU_CM5"
+				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/0b024046-a452-472c-8933-8dd8af0d7b70/0fe8afc8-b7c5-49f3-8318-2bf5095c7824"
+					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 43.18 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12261,6 +12409,74 @@
 			(project "VCU_CM5"
 				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/0b024046-a452-472c-8933-8dd8af0d7b70/0fe8afc8-b7c5-49f3-8318-2bf5095c7824"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 317.5 80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8a5d0d1-2f02-440c-9081-91f2eefc2f91")
+		(property "Reference" "R134"
+			(at 317.5 85.09 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 317.5 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 317.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 317.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88b076fe-ea65-49fe-80a9-5feace011021")
+		)
+		(pin "1"
+			(uuid "a232aca4-ba9b-48c5-bbdd-1ceaefd4f9cb")
+		)
+		(instances
+			(project "VCU_CM5"
+				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/0b024046-a452-472c-8933-8dd8af0d7b70/0fe8afc8-b7c5-49f3-8318-2bf5095c7824"
+					(reference "R134")
 					(unit 1)
 				)
 			)

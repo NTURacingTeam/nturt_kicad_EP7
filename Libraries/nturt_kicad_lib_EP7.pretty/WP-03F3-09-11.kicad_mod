@@ -1,0 +1,184 @@
+(footprint "WP-03F3-09-11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "836eecb0-3ee4-4076-a51f-9cf171c99bee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WP-03F3-09-11"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a4fa927-3074-4d3b-aa94-5d2ef8a9884a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.nian-yeong.com.tw/uploads/product/pdf/2529/QC10772.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5da7bf7-713f-48bf-95f3-61b9607bfe38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "M8 Nian Yeong Male 3 pin A-coded"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31d638d0-3d83-4777-ad08-512792e709eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "NIAN YEONG ENTERPRISE"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3fdef823-d42c-4cca-9bde-25d6604b7734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eed0f201-bde9-4634-a04b-3a3b590695e5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "11731797-3ab7-420f-8380-006e8ebd674a")
+	)
+	(fp_text user "3"
+		(at -2.65 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3d6d5961-8290-44f2-97c4-69d3b1fa87a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "4"
+		(at -0.9 -1.75 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "dd55803c-f0ec-420d-a72b-8778563207de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "1"
+		(at 2.65 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fdd27fc7-6e48-44b3-9db0-9faadb850f65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b87cb087-2e10-4cd9-a755-412e0fc572e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.75 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33f95bdb-c370-443e-8ba2-e7ec77a737df")
+	)
+	(pad "3" thru_hole circle
+		(at -1.75 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "332f7e4b-12ad-49cb-ab5c-595be215a4c4")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -1.75)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "56ba1bf1-b321-4457-9897-7a0c87bc277d")
+	)
+	(pad "SH" thru_hole circle
+		(at -6.25 0)
+		(size 4.5 4.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd4829b7-7d67-43f5-ae0e-d3d687a1e07d")
+	)
+	(pad "SH" thru_hole circle
+		(at 6.25 0)
+		(size 4.5 4.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4679853c-2941-4443-a0e4-ff87cec9841e")
+	)
+	(embedded_fonts no)
+)

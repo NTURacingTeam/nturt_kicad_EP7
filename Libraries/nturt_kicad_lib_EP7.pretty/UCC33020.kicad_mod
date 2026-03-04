@@ -1,0 +1,371 @@
+(footprint "UCC33020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RAQ0012B")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24a7f532-f087-4e0a-813d-38ab5b762998")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "UCC33420QRAQRQ1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "22dc161f-ce10-4d2b-a1f3-9d7575c3d9c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc33420-q1.pdf?ts=1741595347894&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUCC33420-Q1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3448ba4b-e24c-42b4-ac0c-08a0028809bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Management Modules Automotive, 5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f193706d-a29f-4e35-abfd-b0cf2859f835")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.05"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11a9f03c-d404-418d-a4b9-e1234b0e8616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-UCC33420QRAQRQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2fd4d11-8f16-4838-8cc1-fc445bcbd72e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC33420QRAQRQ1?qs=7%2F6SraaimPSitAwgIt4uJA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2aea3ef-a8da-4f85-9f39-5032536ee973")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35651635-1120-4bd6-b97d-b8d8c0b9f649")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "UCC33420QRAQRQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb4f985b-cf1e-4d1f-a50c-a679951edc51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -1.6)
+		(end -3.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c55a15a-caa5-417c-80aa-69794fc55d20")
+	)
+	(fp_line
+		(start -3.2 -1.6)
+		(end -3.2 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1816b1c1-4bfc-4e64-8af1-1582ca737ba2")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end 2.5 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c9ede06-ce08-430f-8d54-ced718674824")
+	)
+	(fp_line
+		(start -2.5 1.95)
+		(end 2.5 1.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4166aad2-6072-4112-9e0c-f3ee2620e96a")
+	)
+	(fp_arc
+		(start -3.3 -1.6)
+		(mid -3.25 -1.65)
+		(end -3.2 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab9b6f8a-d190-449c-946c-9070916ea9f4")
+	)
+	(fp_arc
+		(start -3.2 -1.6)
+		(mid -3.25 -1.55)
+		(end -3.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c3a1417-cc3c-4a92-83b2-75084507cb25")
+	)
+	(fp_line
+		(start -2.8 -2.1)
+		(end 2.8 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3229abe-6541-45da-88fc-b4a2d6d23e77")
+	)
+	(fp_line
+		(start -2.8 2.1)
+		(end -2.8 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13472dfe-4575-4763-b6ce-60ce72ed2b11")
+	)
+	(fp_line
+		(start 2.8 -2.1)
+		(end 2.8 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4e729a2-d168-48d6-a2a0-16e9e718997c")
+	)
+	(fp_line
+		(start 2.8 2.1)
+		(end -2.8 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "701703df-ecb2-42aa-8d27-ea665759ed7e")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end 2.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "618865ef-f312-4df5-8c0e-a9cdf9782a4b")
+	)
+	(fp_line
+		(start -2.5 2)
+		(end -2.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a713b6b5-f87b-4e5d-a825-35b5998ed205")
+	)
+	(fp_line
+		(start 2.5 -2)
+		(end 2.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f62e381-19c1-4b5e-9fc2-44fc996a3aa7")
+	)
+	(fp_line
+		(start 2.5 2)
+		(end -2.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bc8de25-a99b-4da9-81ec-d8136f3d8cd1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d444ec83-570a-437c-bd58-62b3b9fc76a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.4 -1.625 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e606d615-db72-455f-a2c5-f6cfe8944d8c")
+	)
+	(pad "2" smd rect
+		(at -2.4 -0.975 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d6a728e-bf5b-49b7-bf29-3a41c3f8995b")
+	)
+	(pad "3" smd rect
+		(at -2.55 -0.325 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d56fc502-8bd8-4d28-9d1e-d4673349041b")
+	)
+	(pad "4" smd rect
+		(at -2.55 0.325 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94310bb8-8716-4fcd-b3ab-996919ff2f29")
+	)
+	(pad "5" smd rect
+		(at -2.55 0.975 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5c55e31-95ca-4fb4-aed6-c002553c4df9")
+	)
+	(pad "6" smd rect
+		(at -2.4 1.625 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "479051f4-269d-4219-9599-9327c0bb6833")
+	)
+	(pad "7" smd rect
+		(at 2.4 1.625 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70633fb7-5c4f-42c8-8db4-c41b84734e3c")
+	)
+	(pad "8" smd rect
+		(at 2.4 0.975 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "255e282a-914e-472d-9ce1-add07bd4139f")
+	)
+	(pad "9" smd rect
+		(at 2.55 0.325 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93e5ac65-4003-428b-a172-6d348ef77cf4")
+	)
+	(pad "10" smd rect
+		(at 2.55 -0.325 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "496e4ae1-cd3e-4aaf-94eb-c225277db2c8")
+	)
+	(pad "11" smd rect
+		(at 2.55 -0.975 90)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d95656f2-5df5-416c-9f67-cdbee1f73758")
+	)
+	(pad "12" smd rect
+		(at 2.4 -1.625 90)
+		(size 0.3 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ef46e8b-a6d4-4226-a628-2759d5680a51")
+	)
+	(pad "13" smd rect
+		(at -2.25 0.325)
+		(size 0.3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "517a7e1c-6e41-4fae-a4af-22cf751a9e7c")
+	)
+	(pad "14" smd rect
+		(at 2.25 -0.325)
+		(size 0.3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ae0b363-8034-4eca-b2fa-190ec33adea6")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/UCC33020.stp"
+		(offset
+			(xyz 0 0 0.009999999626)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

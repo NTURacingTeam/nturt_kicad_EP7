@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "4c2e70e4-a01b-4510-8179-c76b2cb86ced")
 	(paper "A4")
+	(title_block
+		(title "DIY_MGJ6")
+		(date "2026-03-06")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -853,6 +861,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1840,14 +1857,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transformer_Wurth_WE-PPTI:1308_750319697"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "nturt_kicad_lib_EP7:TPS5430DDAR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "T"
+			(property "Reference" "U2"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -1855,17 +1869,264 @@
 					)
 				)
 			)
-			(property "Value" "1308_750319697"
-				(at 12.7 22.86 0)
+			(property "Value" "TPS5430DDAR"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
 					)
 					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Transformer_SMD_Wurth:T_Wurth_WE-PPTI-1308"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps5430.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Down DC-DC Switching Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TI*SO*PowerPAD*ThermalVias*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS5430DDAR_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS5430DDAR_1_1"
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GNDPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "PH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "VSENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "nturt_kicad_lib_EP7:Transformer_Wurth_1308_750319697"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T1"
+				(at 0 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FC-STR0809-4.5V-5.0V-5.0W"
+				(at 0 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "nturt_kicad_lib_EP7:T_Wurth_WE-PPTI-1308"
 				(at 12.7 20.32 0)
 				(effects
 					(font
@@ -2111,7 +2372,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1308_750319697_0_1"
+			(symbol "Transformer_Wurth_1308_750319697_0_1"
 				(arc
 					(start -1.27 8.89)
 					(mid -1.6561 8.0137)
@@ -2509,7 +2770,7 @@
 					)
 				)
 			)
-			(symbol "1308_750319697_1_1"
+			(symbol "Transformer_Wurth_1308_750319697_1_1"
 				(circle
 					(center -2.54 8.89)
 					(radius 0.0001)
@@ -2697,254 +2958,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nturt_kicad_lib_EP6:TPS5430DDAR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TPS5430DDAR"
-				(at -1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps5430.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Down DC-DC Switching Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TI*SO*PowerPAD*ThermalVias*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS5430DDAR_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPS5430DDAR_1_1"
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GNDPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "PH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "VSENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3046,6 +3059,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "FB Vref=1.221\nR_FBB = 10k ~ 100k\npossible R_FBT, R_FBB"
 		(exclude_from_sim no)
@@ -3057,6 +3171,17 @@
 			(justify left bottom)
 		)
 		(uuid "2cf4a6cf-74c4-4b51-b088-e5a6db0f00c1")
+	)
+	(text "V1.0 init by Shinkansen942\nV1.1 modify by Jack Kuo"
+		(exclude_from_sim no)
+		(at 110.744 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5257b305-615c-40b2-b7f3-d659d8817282")
 	)
 	(text "If T1 blows up change to WE PN 750319697"
 		(exclude_from_sim no)
@@ -3129,10 +3254,22 @@
 		(uuid "6a00e8a1-2e5c-430a-aca3-4ba913db1bc0")
 	)
 	(junction
+		(at 33.02 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b3fba33-57a1-40b8-ad30-69d48fca6afe")
+	)
+	(junction
 		(at 176.53 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f33ef41-f121-495d-842b-e83f30c367dc")
+	)
+	(junction
+		(at 36.83 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816989b5-ecd8-4786-893a-15134b555aeb")
 	)
 	(junction
 		(at 254 34.29)
@@ -3189,6 +3326,12 @@
 		(uuid "bc68cfeb-c07b-4e48-a41a-781178779b0e")
 	)
 	(junction
+		(at 147.32 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdcd1ee3-c5a2-4848-9cd1-39de78af9d4d")
+	)
+	(junction
 		(at 236.22 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3199,6 +3342,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3a7585c-1d9b-4480-bbce-3da28c15e414")
+	)
+	(junction
+		(at 149.86 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9542e3-584f-4200-a18a-63881e574278")
 	)
 	(junction
 		(at 139.7 55.88)
@@ -3229,6 +3378,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f80759c8-25c9-41e5-8df6-ed5ef236ae77")
+	)
+	(junction
+		(at 255.27 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa7480eb-67a6-4a58-b36b-d0d9ea571e65")
 	)
 	(junction
 		(at 260.35 55.88)
@@ -3414,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 151.13 76.2)
+			(xy 147.32 76.2) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3521,6 +3676,16 @@
 			(type default)
 		)
 		(uuid "4fdf3f8a-c157-4d7d-a88e-ad5fc1e924ae")
+	)
+	(wire
+		(pts
+			(xy 255.27 55.88) (xy 260.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5040b81c-89ba-4a85-8746-86672c53667c")
 	)
 	(wire
 		(pts
@@ -3754,7 +3919,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 151.13 55.88)
+			(xy 139.7 55.88) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3964,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 55.88) (xy 260.35 55.88)
+			(xy 247.65 55.88) (xy 255.27 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4074,6 +4239,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 55.88) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7843721-dcf7-40d1-97e3-6ec24c3d6486")
+	)
+	(wire
+		(pts
 			(xy 22.86 82.55) (xy 22.86 77.47)
 		)
 		(stroke
@@ -4081,6 +4256,16 @@
 			(type default)
 		)
 		(uuid "c8bf7ea9-0c8d-4894-9117-ea0119279be4")
+	)
+	(wire
+		(pts
+			(xy 149.86 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd35db50-311d-4ab2-9577-1d2697d177a7")
 	)
 	(wire
 		(pts
@@ -4134,6 +4319,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 82.55) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e407f209-0296-4656-9902-e43d5f0b2a43")
+	)
+	(wire
+		(pts
 			(xy 224.79 66.04) (xy 224.79 64.77)
 		)
 		(stroke
@@ -4164,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 82.55) (xy 38.1 82.55)
+			(xy 27.94 82.55) (xy 36.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4645,6 +4840,72 @@
 			(project "DIY_MGJ6"
 				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 147.32 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0866486f-2ed9-44b9-846c-ff90e979cbfc")
+		(property "Reference" "#FLG04"
+			(at 147.32 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420fc7c0-4cb4-4371-8d29-8a586f3a7bc4")
+		)
+		(instances
+			(project "DIY_MGJ6"
+				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -5370,7 +5631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transformer_Wurth_WE-PPTI:1308_750319697")
+		(lib_id "nturt_kicad_lib_EP7:Transformer_Wurth_1308_750319697")
 		(at 114.3 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5394,7 +5655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_SMD_Wurth:T_Wurth_WE-PPTI-1308"
+		(property "Footprint" "nturt_kicad_lib_EP7:T_Wurth_WE-PPTI-1308"
 			(at 127 45.72 0)
 			(effects
 				(font
@@ -5844,6 +6105,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5995a12-135e-47b0-8c0e-cf5cca2e7afc")
 		)
@@ -5934,7 +6204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nturt_kicad_lib_EP6:TPS5430DDAR")
+		(lib_id "nturt_kicad_lib_EP7:TPS5430DDAR")
 		(at 196.85 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6019,6 +6289,72 @@
 			(project "DIY_MGJ6"
 				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7feebcab-e4f0-48e1-ab69-b874472ae95d")
+		(property "Reference" "#FLG02"
+			(at 36.83 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "805c866b-5839-4e98-85f5-7f2cfd4feacb")
+		)
+		(instances
+			(project "DIY_MGJ6"
+				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6301,6 +6637,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2da9c3f-97e3-4312-b9e6-22101a5b4adf")
+		(property "Reference" "#FLG05"
+			(at 255.27 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32b3ee99-cda2-42c4-9965-279556f65a30")
+		)
+		(instances
+			(project "DIY_MGJ6"
+				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 99.06 76.2 270)
 		(unit 1)
@@ -6504,6 +6906,72 @@
 			(project "DIY_MGJ6"
 				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf9bc50a-2e4b-4667-882d-16121b266e82")
+		(property "Reference" "#FLG03"
+			(at 149.86 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "386efc89-0330-45c8-b45e-5d861be2442e")
+		)
+		(instances
+			(project "DIY_MGJ6"
+				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6785,6 +7253,72 @@
 			(project ""
 				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4aa95eb-f769-4036-9591-03760e0b2cae")
+		(property "Reference" "#FLG01"
+			(at 33.02 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2ff28c-8ac0-4ccb-bf33-a0d68bccc8d4")
+		)
+		(instances
+			(project ""
+				(path "/4c2e70e4-a01b-4510-8179-c76b2cb86ced"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

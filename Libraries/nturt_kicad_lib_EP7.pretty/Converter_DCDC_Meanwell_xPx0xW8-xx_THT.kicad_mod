@@ -1,0 +1,212 @@
+(footprint "Converter_DCDC_Meanwell_xPx0xW8-xx_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, TRACO, TEC 2-12xxWI, TEC 2-24xxWI, TEC 2-48xxWI, 2W, Rev. May 7. 2025, https://www.tracopower.com/products/tec2wi.pdf, generated with kicad-footprint-generator StandardBox_generator.py")
+	(tags "DCDC-Converter TRACO TEC2WI THT SIP-8 2W TMR2")
+	(property "Reference" "U22"
+		(at -1.05 -3.45 0)
+		(layer "F.SilkS")
+		(uuid "dc159ca6-cf3a-4556-9bc9-b3c23b82cce2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TEC2-2411WI"
+		(at -1.05 21.25 0)
+		(layer "F.Fab")
+		(uuid "95e52111-9a2d-4804-82e1-ab9d74968159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tracopower.com/products/tec2wi.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b846061e-c4a4-4631-b061-3ec92a1d7079")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2W DC/DC industrial converter regulated, 9-36V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "152f1ccc-de27-4e7b-8bad-528409feb0ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.21 -2.61)
+		(end 4.11 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a812bc8-322c-4f6d-86d4-d48bd7cce7e2")
+	)
+	(fp_line
+		(start -6.21 -0.296)
+		(end -6.21 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "624f95a1-d4f3-46ae-9a12-fa0a99256dd4")
+	)
+	(fp_line
+		(start -6.21 20.41)
+		(end -6.21 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25a6a0ed-964d-45f4-b8ad-8bbb16510219")
+	)
+	(fp_line
+		(start 4.11 -2.61)
+		(end 4.11 20.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f912bae9-1dff-4dc3-8747-c8fda1c18a10")
+	)
+	(fp_line
+		(start 4.11 20.41)
+		(end -6.21 20.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8a6b7f5-7a96-4948-bdcd-45a250b5e9ba")
+	)
+	(fp_poly
+		(pts
+			(xy -6.21 0) (xy -6.68 0.34) (xy -6.68 -0.34)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6e0ac310-ec93-4dc8-b42c-048f98e25f8c")
+	)
+	(fp_rect
+		(start -6.35 -2.75)
+		(end 4.25 20.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cbc19b14-c6e0-48bb-8ce5-3e8fc47aa9dd")
+	)
+	(fp_poly
+		(pts
+			(xy -5.6 -1) (xy -5.6 19.8) (xy 3.5 19.8) (xy 3.5 -2) (xy -4.6 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "294cca3b-049e-4230-b460-1b56a8f681c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.05 8.9 0)
+		(layer "F.Fab")
+		(uuid "6e322078-7909-48de-970a-8001a38f1764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.131579)
+		(uuid "8d2eabf4-3642-4c58-bfaf-e104fe3a0844")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2169218-354c-4822-86e5-3c6e6ed46ad5")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0439b858-3599-4918-bda1-c8b2f54435e6")
+	)
+	(pad "6" thru_hole circle
+		(at 0 12.7)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84e5024b-3336-4c81-801d-c834eb6bda42")
+	)
+	(pad "7" thru_hole circle
+		(at 0 15.24)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1952bd2-36b0-45c2-a014-736c9d3f0321")
+	)
+	(pad "8" thru_hole circle
+		(at 0 17.78)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10af38b7-9fbd-4c83-a2f0-9929010cedc1")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/Converter_DCDC_TRACO_TEC2-12xxWI_24xxWI_48xxWI_THT.stp"
+		(offset
+			(xyz -1 -8.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

@@ -1,0 +1,261 @@
+(footprint "Converter_DCDC_TRACO_TEL12-xxxx_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Traco 12W, THT (https://www.tracopower.com/sites/default/files/products/datasheets/tel12_datasheet.pdf)")
+	(tags "traco dcdc tht 12w")
+	(property "Reference" "U23"
+		(at 5.08 -4.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6999039c-9efe-4520-9b3c-dfd6d29f22af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TEL12-2415"
+		(at 5.08 22.65 0)
+		(layer "F.Fab")
+		(uuid "70a66186-beb1-404a-9e19-4e1bc736e0dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tracopower.com/sites/default/files/products/datasheets/tel12_datasheet.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2898449-90ae-486b-b3ce-c2b1fab6a7ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.5A Isolated DC/DC Converter Module, fixed 24V Output Voltage, 18-36V Input Voltage, 12W"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d18d4efe-a5e8-4df1-b442-394839d47ac6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.88 -2.045)
+		(end -1.88 20.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba610e90-aba6-44ec-aa1a-e8c76e263d1e")
+	)
+	(fp_line
+		(start -1.88 20.91)
+		(end 12.04 20.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "377349cc-f0d1-4cb0-b5b4-29e2aaf12615")
+	)
+	(fp_line
+		(start -0.815 -3.11)
+		(end -1.88 -2.045)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "319585b8-9f50-46ac-a7a0-cc430b0963d9")
+	)
+	(fp_line
+		(start 12.03 -3.11)
+		(end -0.815 -3.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc055c39-a276-41c9-bba5-612513788142")
+	)
+	(fp_line
+		(start 12.04 20.9)
+		(end 12.04 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07225a69-6a56-4e3c-9123-ab0ce2b71a66")
+	)
+	(fp_line
+		(start -2.02 -3.25)
+		(end 12.18 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c985a6b8-8950-4221-8aa1-896df9081664")
+	)
+	(fp_line
+		(start -2.02 21.05)
+		(end -2.02 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f79e6c7-f917-4acf-8cc6-f1b313e4f449")
+	)
+	(fp_line
+		(start 12.18 -3.25)
+		(end 12.18 21.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bafd9b22-b7d9-4a5c-af5a-b71e4f30b331")
+	)
+	(fp_line
+		(start 12.18 21.05)
+		(end -2.02 21.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cd19f2d-8f47-4a06-88e6-64cd571f4591")
+	)
+	(fp_line
+		(start -1.77 20.8)
+		(end -1.77 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14578f21-7dcc-4d1f-b7cf-39040dcf9ff5")
+	)
+	(fp_line
+		(start -0.77 -3)
+		(end -1.77 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "408f9eab-3872-4ac8-a923-9489ac4258ca")
+	)
+	(fp_line
+		(start -0.77 -3)
+		(end 11.93 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a6210b3-0a62-4adc-b321-4230256ac2c7")
+	)
+	(fp_line
+		(start 11.93 -3)
+		(end 11.93 20.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc98ec1b-f243-4440-801c-16eb8ae65c2b")
+	)
+	(fp_line
+		(start 11.93 20.8)
+		(end -1.77 20.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01a1add3-7a46-4cba-a39f-2954d48eec11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 9.6 0)
+		(layer "F.Fab")
+		(uuid "70470c0b-fc9d-4fab-a154-a4be18c92562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "343ea2ae-e5b4-4c87-88e3-85653420dc7b")
+	)
+	(pad "8" thru_hole oval
+		(at 0 17.78)
+		(size 2 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b4d6f7b-9827-4b16-a40b-b964b408bc97")
+	)
+	(pad "9" thru_hole oval
+		(at 10.16 17.78)
+		(size 2 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e60feb5b-050d-430e-a697-683c8841d460")
+	)
+	(pad "10" thru_hole oval
+		(at 10.16 15.24)
+		(size 2 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3413ffee-5426-45b6-92b9-6b9abbb22c2b")
+	)
+	(pad "16" thru_hole oval
+		(at 10.16 0)
+		(size 2 1.5)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "03059a69-4457-4d64-bb9e-67bf1705d3b0")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/Converter_DCDC_TRACO_TEL12-xxxx_THT.step"
+		(offset
+			(xyz 5 -9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 90)
+		)
+	)
+)

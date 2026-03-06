@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "50297fd0-2e2c-435a-b28f-6cae7cef58c4")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Iso")
+		(date "2026-03-06")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
@@ -2792,16 +2800,6 @@
 		)
 		(uuid "ef2b6d8c-1ec2-4153-a08a-e2de5dee0593")
 	)
-	(wire
-		(pts
-			(xy 45.4099 57.15) (xy 45.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc058265-181d-4f3d-92ce-85aa6b6c37f6")
-	)
 	(label "ISO_GND"
 		(at 83.82 63.5 180)
 		(effects
@@ -2943,7 +2941,7 @@
 		(uuid "a8549265-8806-42f1-a25d-9a43365bcbee")
 	)
 	(label "ISO_24V"
-		(at 45.4099 57.15 0)
+		(at 45.72 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3442,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:Converter_DCDC_Meanwell_xPx0xW8-xx_THT"
+		(property "Footprint" "nturt_kicad_lib_EP7:Converter_DCDC_Meanwell_xPx0xW8-xx_THT"
 			(at 93.98 67.564 0)
 			(effects
 				(font
@@ -4002,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TEL12-xxxx_THT"
+		(property "Footprint" "nturt_kicad_lib_EP7:Converter_DCDC_TRACO_TEL12-xxxx_THT"
 			(at 93.98 90.805 0)
 			(effects
 				(font
@@ -4923,7 +4921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 97.79 44.7548 0)
 			(effects
 				(font

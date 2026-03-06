@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "9462fd0f-9ffc-4bbb-994d-7bd6d894b79d")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Iso")
+		(date "2026-03-06")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -411,24 +419,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nturt_kicad_lib_EP6:AMC3311"
+		(symbol "nturt_kicad_lib_EP7:AMC3311"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 22.86 0)
+			(property "Reference" "U1"
+				(at 7.3935 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "AMC3311"
-				(at 0 20.32 0)
+				(at 7.3935 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
@@ -1113,8 +1123,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1190,8 +1204,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2684,7 +2697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nturt_kicad_lib_EP6:AMC3311")
+		(lib_id "nturt_kicad_lib_EP7:AMC3311")
 		(at 97.79 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2694,7 +2707,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a11760-9371-4c45-92c4-b01f4ef58eb3")
 		(property "Reference" "U25"
-			(at 105.1835 58.42 0)
+			(at 105.0133 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2716,7 @@
 			)
 		)
 		(property "Value" "AMC3311"
-			(at 105.1835 60.96 0)
+			(at 105.0133 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

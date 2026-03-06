@@ -1,0 +1,162 @@
+(footprint "L_Wurth_WE-HCFT-3635_74437636352702"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded High Current Inductor, body 36.5x35.7x34.2mm, https://www.we-online.com/en/components/products/WE-HCFT#/articles/WE-HCFT-3635")
+	(tags "THT")
+	(property "Reference" "L1"
+		(at 5.75 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a031b984-346a-490a-b60e-a17091b871a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "74437636352702"
+		(at 5.75 31.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e7a603b-e417-410f-915e-0a699e8b292a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03a34799-4906-4aba-8614-631fa6c3f224")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e298987c-0617-432d-94f3-1bd85aeb3629")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.835 -0.5625)
+		(end -12.835 0.5625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7455c722-7c1d-4c1e-abb3-36d2e9896d22")
+	)
+	(fp_rect
+		(start -12.61 -5.86)
+		(end 24.11 30.06)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7c0e8be5-58cf-4a83-954d-c80db4ffb41b")
+	)
+	(fp_rect
+		(start -12.75 -6)
+		(end 24.25 30.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6378cdd4-7bfa-40a2-b7d0-7b6cb8b8cdc4")
+	)
+	(fp_line
+		(start -12.5 -0.5625)
+		(end -11.65625 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "55b7a6d7-0ac6-46e8-9b9e-fae9cd26d50e")
+	)
+	(fp_line
+		(start -12.5 0.5625)
+		(end -11.65625 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d6ec1015-5d4d-4321-a178-3f36b9ebd279")
+	)
+	(fp_rect
+		(start -12.5 -5.75)
+		(end 24 29.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8674d9f8-1b2a-4479-a550-c31367f66d79")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.75 12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6fd6a4a-9b49-4f90-8dfc-a21af208aeed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 12.7 4.5)
+		(drill oval 10.7 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42a17698-b82b-4306-85ed-50bbddc2e841")
+	)
+	(pad "2" thru_hole oval
+		(at 11.5 24.2)
+		(size 12.7 4.5)
+		(drill oval 10.7 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c0c2da2-1164-416d-af21-6ba755598e4d")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/L_Wurth_WE-HCFT-3635_74437636352702.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

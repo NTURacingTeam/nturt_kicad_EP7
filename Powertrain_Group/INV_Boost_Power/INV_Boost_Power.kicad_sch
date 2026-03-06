@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "7625315e-1f21-4ac3-9514-464edd9d9f80")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Power")
+		(date "2026-03-06")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
@@ -1087,21 +1095,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1192,282 +1198,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "REDCUBE_Wurth_WP-THRSH:74651175R"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "MP"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74651175R"
-				(at 12.7 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "REDCUBE_THT_Wurth:MP_Wurth_WP-THRSH_74651175R"
-				(at 12.7 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74651175R.pdf?ki"
-				(at 12.7 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "REDCUBE THR with external thread"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 12.7 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 12.7 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Created Date" "20260120"
-				(at 12.7 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Series" "WP-THRSH"
-				(at 12.7 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "74651175R"
-				(at 12.7 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounting Technology" "THR"
-				(at 12.7 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "W (mm)" "7"
-				(at 12.7 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "H (mm)" "10.5"
-				(at 12.7 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "To" "M5"
-				(at 12.7 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Tl (mm)" "7"
-				(at 12.7 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Pins" "4"
-				(at 12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "THR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*WP-THRSH*74651175R*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74651175R_0_0"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74651175R_1_0"
-				(rectangle
-					(start -2.54 -1.27)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2162,535 +1892,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:1ED3122MC12HXUMA1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 10.414 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "1ED3122MC12HXUMA1"
-				(at 0 7.874 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Snapeda:PG-DSO-8-66-L"
-				(at -20.32 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-1ED31xxMC12H-_1ED-X3_Compact-DataSheet-v01_10-EN.pdf?fileId=5546d46277fc7439017802de09e5671d"
-				(at -20.32 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -20.32 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1ED3122MC12HXUMA1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PG-DSO-8-66 PG-DSO-8-66-M PG-DSO-8-66-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1ED3122MC12HXUMA1_0_0"
-				(rectangle
-					(start -8.89 6.35)
-					(end 8.89 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "1ED3122MC12HXUMA1_0_1"
-				(pin power_in line
-					(at -16.51 3.81 0)
-					(length 7.62)
-					(name "VCC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 1.27 0)
-					(length 7.62)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -1.27 0)
-					(length 7.62)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -16.51 -3.81 0)
-					(length 7.62)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 3.81 180)
-					(length 7.62)
-					(name "VCC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 1.27 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -1.27 180)
-					(length 7.62)
-					(name "CLAMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 16.51 -3.81 180)
-					(length 7.62)
-					(name "VEE2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Snapeda:MGJ6D241505SC"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MGJ6D241505SC"
-				(at -5.08 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Snapeda:PMPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Murata Power Solutions Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Isolated Module DC DC Converter 2 Output 15V -5V 300mA, 300mA 18V - 36V Input"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MGJ6D241505SC/Murata+Power+Solutions+Inc/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MGJ6D241505SC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MGJ6D241505SC/Murata+Power+Solutions+Inc/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MGJ6D241505SC_0_0"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 27.94 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 10.16 0)
-					(length 5.08)
-					(name "~{DIS}/SYNC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 10.16 180)
-					(length 5.08)
-					(name "15V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 5.08 180)
-					(length 5.08)
-					(name "5VB_RTN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "5VA_RTN/5VB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -5.08 180)
-					(length 5.08)
-					(name "15V_RTN/5VA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:C3M0030090K"
 			(pin_names
 				(hide yes)
@@ -3030,6 +2231,813 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "nturt_kicad_lib_EP7:1ED3122MC12HXUMA1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1ED3122MC12HXUMA1"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:Infineon_PG-DSO-8-59_7.5x6.3mm"
+				(at -20.32 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-1ED31xxMC12H-_1ED-X3_Compact-DataSheet-v01_10-EN.pdf?fileId=5546d46277fc7439017802de09e5671d"
+				(at -20.32 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -20.32 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1ED3122MC12HXUMA1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PG-DSO-8-66 PG-DSO-8-66-M PG-DSO-8-66-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1ED3122MC12HXUMA1_0_0"
+				(rectangle
+					(start -8.89 6.35)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "1ED3122MC12HXUMA1_0_1"
+				(pin power_in line
+					(at -16.51 3.81 0)
+					(length 7.62)
+					(name "VCC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 1.27 0)
+					(length 7.62)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -1.27 0)
+					(length 7.62)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -16.51 -3.81 0)
+					(length 7.62)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 3.81 180)
+					(length 7.62)
+					(name "VCC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 1.27 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -1.27 180)
+					(length 7.62)
+					(name "CLAMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -3.81 180)
+					(length 7.62)
+					(name "VEE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "nturt_kicad_lib_EP7:MGJ6D241505SC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 11.43 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MGJ6D241505SC"
+				(at 11.43 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "nturt_kicad_lib_EP7:Murata_PMPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata Power Solutions Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Isolated Module DC DC Converter 2 Output 15V -5V 300mA, 300mA 18V - 36V Input"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MGJ6D241505SC/Murata+Power+Solutions+Inc/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MGJ6D241505SC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MGJ6D241505SC/Murata+Power+Solutions+Inc/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MGJ6D241505SC_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 27.94 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "~{DIS}/SYNC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 10.16 180)
+					(length 5.08)
+					(name "15V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 5.08 180)
+					(length 5.08)
+					(name "5VB_RTN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "5VA_RTN/5VB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "15V_RTN/5VA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "nturt_kicad_lib_EP7:Mounting_Screw_74651175R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MP3"
+				(at -3.81 0.6349 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Mounting_Screw_74651175R"
+				(at 12.7 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "nturt_kicad_lib_EP7:MP_Wurth_WP-THRSH_74651175R"
+				(at 12.7 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74651175R.pdf?ki"
+				(at 12.7 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "REDCUBE THR with external thread"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Created Date" "20260120"
+				(at 12.7 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "WP-THRSH"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "74651175R"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Technology" "THR"
+				(at 12.7 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "W (mm)" "7"
+				(at 12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "H (mm)" "10.5"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "To" "M5"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tl (mm)" "7"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pins" "4"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "THR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*WP-THRSH*74651175R*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mounting_Screw_74651175R_0_0"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mounting_Screw_74651175R_1_0"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "V1.0 init by Shinkansen942\nV1.1 minor modification by Jack Kuo"
+		(exclude_from_sim no)
+		(at 153.416 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "af61a00f-1772-453f-ba99-ba6b8b4b15a1")
 	)
 	(junction
 		(at 113.03 64.77)
@@ -3170,12 +3178,6 @@
 		(uuid "794115f2-8283-46da-9e7e-eff48967f6f9")
 	)
 	(junction
-		(at 246.38 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b08d16f-9d0e-4cfe-b811-2e873b59a182")
-	)
-	(junction
 		(at 154.94 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3210,12 +3212,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f282a2e-0505-4899-884e-a2d85b774997")
-	)
-	(junction
-		(at 246.38 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fcc2372-6277-4d04-9d5a-3accc768c32b")
 	)
 	(junction
 		(at 127 48.26)
@@ -4455,16 +4451,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.5199 96.52) (xy 36.83 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa0e3b6-025a-4037-b386-5b9c4afd7a35")
-	)
-	(wire
-		(pts
 			(xy 93.98 115.57) (xy 93.98 125.73)
 		)
 		(stroke
@@ -4984,7 +4970,7 @@
 		(uuid "68f9046d-b1e3-4087-af78-14216c3d1dcd")
 	)
 	(label "ISO_24V"
-		(at 36.5199 96.52 0)
+		(at 36.83 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5457,7 +5443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:MGJ6D241505SC")
+		(lib_id "nturt_kicad_lib_EP7:MGJ6D241505SC")
 		(at 236.22 125.73 0)
 		(mirror y)
 		(unit 1)
@@ -5483,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:PMPN"
+		(property "Footprint" "nturt_kicad_lib_EP7:Murata_PMPN"
 			(at 236.22 125.73 0)
 			(effects
 				(font
@@ -5873,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT_Wurth_New:L_Wurth_WE-HCFT-3635_74437636352702"
+		(property "Footprint" "nturt_kicad_lib_EP7:L_Wurth_WE-HCFT-3635_74437636352702"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -6054,7 +6040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:1ED3122MC12HXUMA1")
+		(lib_id "nturt_kicad_lib_EP7:1ED3122MC12HXUMA1")
 		(at 120.65 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6079,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:PG-DSO-8-66-L"
+		(property "Footprint" "Package_SO:Infineon_PG-DSO-8-59_7.5x6.3mm"
 			(at 100.33 140.97 0)
 			(effects
 				(font
@@ -6441,7 +6427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:TO-247-4_Horizontal_TabUp_NoHole"
+		(property "Footprint" "nturt_kicad_lib_EP7:TO-247-4_Horizontal_TabUp_NoHole"
 			(at 180.34 56.515 0)
 			(effects
 				(font
@@ -6493,7 +6479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "REDCUBE_Wurth_WP-THRSH:74651175R")
+		(lib_id "nturt_kicad_lib_EP7:Mounting_Screw_74651175R")
 		(at 83.82 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6521,7 +6507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "REDCUBE_THT_Wurth:MP_Wurth_WP-THRSH_74651175R"
+		(property "Footprint" "nturt_kicad_lib_EP7:MP_Wurth_WP-THRSH_74651175R"
 			(at 96.52 44.45 0)
 			(effects
 				(font
@@ -6699,7 +6685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 64.4652 85.09 0)
 			(effects
 				(font
@@ -6742,7 +6728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "REDCUBE_Wurth_WP-THRSH:74651175R")
+		(lib_id "nturt_kicad_lib_EP7:Mounting_Screw_74651175R")
 		(at 83.82 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6770,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "REDCUBE_THT_Wurth:MP_Wurth_WP-THRSH_74651175R"
+		(property "Footprint" "nturt_kicad_lib_EP7:MP_Wurth_WP-THRSH_74651175R"
 			(at 71.12 102.87 0)
 			(effects
 				(font
@@ -7351,7 +7337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:1ED3122MC12HXUMA1")
+		(lib_id "nturt_kicad_lib_EP7:1ED3122MC12HXUMA1")
 		(at 120.65 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7376,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:PG-DSO-8-66-L"
+		(property "Footprint" "Package_SO:Infineon_PG-DSO-8-59_7.5x6.3mm"
 			(at 100.33 115.57 0)
 			(effects
 				(font
@@ -7915,7 +7901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "REDCUBE_Wurth_WP-THRSH:74651175R")
+		(lib_id "nturt_kicad_lib_EP7:Mounting_Screw_74651175R")
 		(at 203.2 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7943,7 +7929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "REDCUBE_THT_Wurth:MP_Wurth_WP-THRSH_74651175R"
+		(property "Footprint" "nturt_kicad_lib_EP7:MP_Wurth_WP-THRSH_74651175R"
 			(at 190.5 72.39 0)
 			(effects
 				(font
@@ -8122,7 +8108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 214.3252 39.37 0)
 			(effects
 				(font
@@ -8278,7 +8264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:CeraLink_FA3"
+		(property "Footprint" "nturt_kicad_lib_EP7:TKD_CeraLink_FA3"
 			(at 100.0252 77.47 0)
 			(effects
 				(font
@@ -8321,7 +8307,7 @@
 		)
 	)
 	(symbol
-		(lib_id "REDCUBE_Wurth_WP-THRSH:74651175R")
+		(lib_id "nturt_kicad_lib_EP7:Mounting_Screw_74651175R")
 		(at 203.2 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8349,7 +8335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "REDCUBE_THT_Wurth:MP_Wurth_WP-THRSH_74651175R"
+		(property "Footprint" "nturt_kicad_lib_EP7:MP_Wurth_WP-THRSH_74651175R"
 			(at 215.9 13.97 0)
 			(effects
 				(font
@@ -8597,7 +8583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 214.3252 46.99 0)
 			(effects
 				(font
@@ -9006,7 +8992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:TO-247-4_Horizontal_TabUp_NoHole"
+		(property "Footprint" "nturt_kicad_lib_EP7:TO-247-4_Horizontal_TabUp_NoHole"
 			(at 180.34 46.355 0)
 			(effects
 				(font
@@ -9472,7 +9458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:MGJ6D241505SC")
+		(lib_id "nturt_kicad_lib_EP7:MGJ6D241505SC")
 		(at 236.22 151.13 0)
 		(mirror y)
 		(unit 1)
@@ -9498,7 +9484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:PMPN"
+		(property "Footprint" "nturt_kicad_lib_EP7:Murata_PMPN"
 			(at 236.22 151.13 0)
 			(effects
 				(font
@@ -9805,7 +9791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 64.4652 69.85 0)
 			(effects
 				(font
@@ -9942,7 +9928,7 @@
 			)
 		)
 		(instances
-			(project "1_phase_15kW_boost_power_stage"
+			(project "INV_Boost_Power"
 				(path "/7625315e-1f21-4ac3-9514-464edd9d9f80"
 					(page "2")
 				)

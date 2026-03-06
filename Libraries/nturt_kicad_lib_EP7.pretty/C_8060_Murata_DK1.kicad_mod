@@ -1,0 +1,124 @@
+(footprint "C_8060_Murata_DK1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "C18"
+		(at 0 -4.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f5bac0a8-ca67-406f-a238-5499506f8a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2200p"
+		(at 0 4.25 0)
+		(layer "F.Fab")
+		(uuid "88a5e32b-ff95-44f3-9084-e9201ab8e6c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "405cde10-e4ab-4702-837c-fbf75b89b8b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed4cbbd-c008-45ec-91cf-b81a0726925a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -3)
+		(end 4 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae1ad73e-43a2-46a0-b4c8-07ecf6029ff7")
+	)
+	(fp_line
+		(start -4 3)
+		(end 4 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dc8185a-4163-46cc-a373-d9a5dba48a98")
+	)
+	(fp_rect
+		(start -6.3 -3.05)
+		(end 6.3 3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b019e6c4-d723-4149-9582-1c3f9da183fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4187bf53-2a5c-491f-b2e4-38f0d7fd2ddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5.1 0)
+		(size 2.2 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.153846)
+		(uuid "e5ba132c-4a6a-4d9e-b342-debe44bd6cbf")
+	)
+	(pad "2" smd roundrect
+		(at 5.1 0)
+		(size 2.2 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.153846)
+		(uuid "1b63282f-05bd-4bfe-ab2e-05212c398753")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/DK1E3EA152M86RBH01.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

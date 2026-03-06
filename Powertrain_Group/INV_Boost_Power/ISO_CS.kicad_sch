@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "8dfa8ed5-8a76-4fb0-9f0d-b10a736b2b82")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Power")
+		(date "2026-03-06")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

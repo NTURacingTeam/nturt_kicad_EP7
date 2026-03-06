@@ -1,0 +1,293 @@
+(footprint "Murata_PMPN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U5"
+		(at -8.3 -8.3 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65e3962c-4721-4b5f-b020-a1b326749106")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MGJ6D241505SC"
+		(at -7.62 -8.255 180)
+		(layer "F.Fab")
+		(uuid "792e6fa5-d161-4964-9ab1-3f01930f4462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3606303b-47ca-462c-b2a8-11e148ddb4a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fa0267a-07f5-462b-8460-8ee36010c0de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Murata Power Solutions Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79941239-7b12-42c3-bce9-74f34567afcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Isolated Module DC DC Converter 2 Output 15V -5V 300mA, 300mA 18V - 36V Input"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a23a6293-5ed9-492f-af6a-8f63a5a95200")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b87d363c-d106-41fe-8be5-d28f434960e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a79b4f1-cba6-45f2-8ccb-715d5885cce7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/MGJ6D241505SC/Murata+Power+Solutions+Inc/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17f818de-caa5-4da0-a6b7-1b594a81ed4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "MGJ6D241505SC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2a20d0a-cc61-416f-b051-69da466c2fdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "726b1889-6d88-4481-bd19-e0351574c82d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/MGJ6D241505SC/Murata+Power+Solutions+Inc/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7be8c523-d444-470a-95f3-f102e8c543f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.16 -7.62)
+		(end 30.48 -7.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7e43868-a012-46a2-95d1-0b001dc23660")
+	)
+	(fp_line
+		(start -10.16 0)
+		(end -10.16 -7.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "195c83ee-3171-4ec4-82d7-798d4c24c1cc")
+	)
+	(fp_line
+		(start 30.48 -7.62)
+		(end 30.48 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bb9d3e8-fb19-4bf2-86f5-b92da98fdf13")
+	)
+	(fp_line
+		(start 30.48 0)
+		(end -10.16 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c217d06-2400-423c-b593-181d5e20e9fc")
+	)
+	(fp_rect
+		(start -10.3 -7.7)
+		(end 30.6 0.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "24673ca6-615e-4501-a6ae-0b9bb778e467")
+	)
+	(pad "1" thru_hole circle
+		(at 27.94 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "706b22e3-99c9-4645-a741-f4fab43bdcb9")
+	)
+	(pad "2" thru_hole circle
+		(at 25.4 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8297ad64-5678-4847-8a08-697225103303")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e3fe28e1-5551-469b-a563-9db22f823e3a")
+	)
+	(pad "4" thru_hole circle
+		(at -7.62 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "64cadf3b-c0d9-4544-be37-b99f0280066a")
+	)
+	(pad "5" thru_hole circle
+		(at -7.62 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a9b435b8-68a4-468d-9c9d-90e75fa280e1")
+	)
+	(pad "6" thru_hole circle
+		(at -5.08 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c242d9d0-33ba-47c1-b82a-e94fcf1256f7")
+	)
+	(pad "7" thru_hole circle
+		(at 25.4 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "18d5c759-6ec8-4162-a4fd-6b881a150341")
+	)
+	(pad "8" thru_hole circle
+		(at 27.94 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "385bd0b6-1cea-4d0c-b509-f1dd7480a735")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/DIY_MGJ6.step"
+		(offset
+			(xyz 10.5 8 14)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

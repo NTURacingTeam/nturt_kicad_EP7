@@ -132,7 +132,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -145,10 +145,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -222,7 +223,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",

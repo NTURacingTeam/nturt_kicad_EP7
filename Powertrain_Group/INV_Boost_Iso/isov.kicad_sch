@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Boost_Iso")
-		(date "2026-03-06")
-		(rev "1.1")
+		(date "2026-03-09")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "Shinkansen942")
 		(comment 2 "Jack Kuo")

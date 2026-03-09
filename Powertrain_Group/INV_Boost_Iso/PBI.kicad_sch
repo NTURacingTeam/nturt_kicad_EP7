@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Boost_Iso")
-		(date "2026-03-06")
-		(rev "1.1")
+		(date "2026-03-09")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "Shinkansen942")
 		(comment 2 "Jack Kuo")
@@ -3092,7 +3092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 33.02 0)
 			(effects
 				(font
@@ -3545,7 +3545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -4571,7 +4571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.2452 124.46 0)
 			(effects
 				(font
@@ -4661,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 33.02 0)
 			(effects
 				(font

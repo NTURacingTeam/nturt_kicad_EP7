@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Boost_Iso")
-		(date "2026-03-06")
-		(rev "1.1")
+		(date "2026-03-09")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "Shinkansen942")
 		(comment 2 "Jack Kuo")
@@ -2283,7 +2283,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V1.0 init by Shinkansen942\nV1.1 minor modify by Jack Kuo"
+	(text "V1.0 init by Shinkansen942\nV1.1 minor modify by Jack Kuo\nV1.2 replace 0402 with 0603"
 		(exclude_from_sim no)
 		(at 192.786 92.71 0)
 		(effects

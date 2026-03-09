@@ -4,7 +4,247 @@
 	(generator_version "9.0")
 	(uuid "50297fd0-2e2c-435a-b28f-6cae7cef58c4")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Controller")
+		(date "2026-03-09")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
+		(symbol "Amplifier_Instrumentation:INA333xxDGK"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "INA333xxDGK"
+				(at 3.81 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina333.pdf"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "instrumentation opamp amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA333xxDGK_0_1"
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -5.08 6.35) (xy -5.08 -6.35) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA333xxDGK_1_1"
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "Rg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "Rg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 5.08)
+					(name "Ref"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -306,21 +546,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -411,229 +649,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Amplifier_Instrumentation_AKL:INA333AIDGK"
-			(pin_names
-				(offset 0.2)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "INA333AIDGK"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Package_SO_AKL:MSOP-8_3x3mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina333.pdf?ts=1636192898771&ref_url=https%253A%252F%252Fwww.google.com%252F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MSOP-8 Auto Zero Rail-to-Rail Instrumentation Amplifier, 25μV Offset, 100nV/°C drift, 1 to 1000 Gain, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inamp instrumentation ina amplifier auto zero chopper rrio rail to rail INA333"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INA333AIDGK_0_1"
-				(polyline
-					(pts
-						(xy -8.89 10.16) (xy -8.89 -10.16) (xy 11.43 0) (xy -8.89 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "INA333AIDGK_1_1"
-				(pin input line
-					(at -11.43 7.62 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 5.08 0)
-					(length 2.54)
-					(name "RG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -5.08 0)
-					(length 2.54)
-					(name "RG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 -7.62 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -3.81 11.43 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -3.81 -11.43 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -7.62 90)
-					(length 3.81)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -990,7 +1005,7 @@
 		(uuid "30592eac-172c-4e66-baf2-ba1a80d25ff2")
 	)
 	(junction
-		(at 93.98 82.55)
+		(at 93.98 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eb48a25-29f1-441f-ba39-483eaabd4c17")
@@ -1002,7 +1017,7 @@
 		(uuid "5eb9d7a8-2f36-44a4-aba1-fcad4f15f0d6")
 	)
 	(junction
-		(at 93.98 77.47)
+		(at 93.98 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89f57dbe-a237-47b3-9f8c-7b30c72b5fc5")
@@ -1025,43 +1040,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 107.95 85.09)
+			(xy 114.3 87.63) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07811f05-9b46-42ac-9dea-56511f5b0e06")
-	)
-	(wire
-		(pts
-			(xy 95.25 87.63) (xy 95.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b183f1d-4a43-4ea3-98fe-7666de1b57ad")
-	)
-	(wire
-		(pts
-			(xy 83.82 82.55) (xy 93.98 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "184a3c4b-442d-4ade-8386-ac5c510173e5")
-	)
-	(wire
-		(pts
-			(xy 107.95 85.09) (xy 110.49 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b11c3af-62ac-4b8e-a4f7-3ffe23ac9ecc")
+		(uuid "07698712-b257-4a1a-a5fe-8689f5eca895")
 	)
 	(wire
 		(pts
@@ -1071,27 +1056,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2cd42ed4-7d9a-4b38-a972-20a43938b3cf")
-	)
-	(wire
-		(pts
-			(xy 110.49 87.63) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370cafb5-569f-4237-81fb-349af8796304")
-	)
-	(wire
-		(pts
-			(xy 93.98 77.47) (xy 95.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4302d225-d822-4a77-ab28-a54830743c3c")
+		(uuid "07811f05-9b46-42ac-9dea-56511f5b0e06")
 	)
 	(wire
 		(pts
@@ -1101,11 +1066,81 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "0b183f1d-4a43-4ea3-98fe-7666de1b57ad")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11252b74-3c26-4506-973b-3400b3ad8ca7")
+	)
+	(wire
+		(pts
+			(xy 83.82 77.47) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184a3c4b-442d-4ade-8386-ac5c510173e5")
+	)
+	(wire
+		(pts
+			(xy 107.95 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b11c3af-62ac-4b8e-a4f7-3ffe23ac9ecc")
+	)
+	(wire
+		(pts
+			(xy 107.95 82.55) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd42ed4-7d9a-4b38-a972-20a43938b3cf")
+	)
+	(wire
+		(pts
+			(xy 95.25 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370cafb5-569f-4237-81fb-349af8796304")
+	)
+	(wire
+		(pts
+			(xy 93.98 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4302d225-d822-4a77-ab28-a54830743c3c")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "454d64a7-8afc-43a7-bcf1-d0ed5f4364d3")
 	)
 	(wire
 		(pts
-			(xy 110.49 72.39) (xy 95.25 72.39)
+			(xy 95.25 87.63) (xy 114.3 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1115,13 +1150,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 148.59 80.01)
+			(xy 114.3 82.55) (xy 110.49 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60e8ebee-1a74-49b3-bca2-a967a0e93f2f")
+		(uuid "65d7f1c2-13e1-4045-acee-e20f0869ecd1")
 	)
 	(wire
 		(pts
@@ -1135,7 +1170,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 95.25 82.55)
+			(xy 132.08 80.01) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edb3985-053b-4c95-a991-c76d79268f8c")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77de9254-5cdd-453c-8516-dcb5a2d514bf")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 95.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1155,17 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 55.88) (xy 118.11 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dfcc08-3ef6-4d88-96be-28a85f0063f5")
-	)
-	(wire
-		(pts
-			(xy 107.95 74.93) (xy 110.49 74.93)
+			(xy 107.95 85.09) (xy 110.49 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1195,13 +1240,43 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 77.47) (xy 93.98 77.47)
+			(xy 110.49 74.93) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99c7474-f389-4745-ac74-53842f641bac")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 93.98 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3f6a0f0-304d-4e6e-831f-ba95ae3ccf03")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca12fcdd-ed6f-44e4-8edd-1f6d0c6f86d7")
+	)
+	(wire
+		(pts
+			(xy 118.11 55.88) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a2a33a-9914-4b49-8ce7-661d4618b137")
 	)
 	(wire
 		(pts
@@ -1222,6 +1297,46 @@
 			(type default)
 		)
 		(uuid "dc628a6e-39ed-4c2e-83f8-582babd9f88f")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d3c522-d5e2-45c7-9626-608c119821c5")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b1ef2c-4224-4f21-b1c6-af73f3a1901b")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edad7c18-8954-41e4-8fa6-a08adf9550bc")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f394ae2f-e4e3-4c10-b148-632fb1ad49d9")
 	)
 	(wire
 		(pts
@@ -1266,7 +1381,7 @@
 	)
 	(hierarchical_label "INN"
 		(shape input)
-		(at 78.74 77.47 180)
+		(at 78.74 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1277,7 +1392,7 @@
 	)
 	(hierarchical_label "INP"
 		(shape input)
-		(at 78.74 82.55 180)
+		(at 78.74 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1359,16 +1474,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 77.47 90)
-		(mirror x)
+		(at 81.28 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "228f0e36-95dc-46c5-ad77-37e01421bff2")
 		(property "Reference" "R16"
-			(at 81.28 72.39 90)
+			(at 81.28 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1491,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 81.28 74.93 90)
+			(at 81.28 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1499,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 77.47 0)
+			(at 81.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 77.47 0)
+			(at 81.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1517,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 81.28 77.47 0)
+			(at 81.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,21 +1624,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "51d32fe3-3f91-4750-b8db-84ff029312c2")
 		(property "Reference" "R17"
-			(at 102.87 80.01 90)
+			(at 105.41 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "200k"
-			(at 105.41 80.01 90)
+			(at 105.41 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -1580,9 +1698,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "523673e3-215a-41e1-a524-67971a136653")
 		(property "Reference" "C25"
-			(at 107.95 57.1563 0)
+			(at 107.95 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1710,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 59.6963 0)
+			(at 107.95 59.6962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,6 +1767,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 93.98 80.01 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1656,21 +1776,21 @@
 		(fields_autoplaced yes)
 		(uuid "67de9a21-a7af-43cb-8356-c48986eed124")
 		(property "Reference" "C27"
-			(at 96.52 78.7463 0)
+			(at 91.44 78.7335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "${Cap}"
-			(at 96.52 81.2863 0)
+			(at 91.44 81.2735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -1728,6 +1848,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9c8d5833-b62e-4d01-8ed3-65c45e7eb7a9")
 		(property "Reference" "FB11"
 			(at 99.1108 48.26 90)
@@ -1802,7 +1923,7 @@
 		(fields_autoplaced yes)
 		(uuid "b17a55b4-bd2e-44b7-832c-ae02582beb24")
 		(property "Reference" "C26"
-			(at 125.73 59.6963 0)
+			(at 125.73 59.6962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1932,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 125.73 62.2363 0)
+			(at 125.73 62.2362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2129,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Instrumentation_AKL:INA333AIDGK")
+		(lib_id "Amplifier_Instrumentation:INA333xxDGK")
 		(at 121.92 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2018,7 +2139,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf3d539b-3211-4741-adfc-6bb72fc747eb")
 		(property "Reference" "U6"
-			(at 140.97 73.4527 0)
+			(at 137.16 73.5898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,24 +2147,15 @@
 			)
 		)
 		(property "Value" "INA333AIDGK"
-			(at 140.97 75.9927 0)
+			(at 137.16 76.1298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_SO_AKL:MSOP-8_3x3mm_P0.65mm"
-			(at 121.92 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina333.pdf?ts=1636192898771&ref_url=https%253A%252F%252Fwww.google.com%252F"
-			(at 121.92 80.01 0)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2163,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MSOP-8 Auto Zero Rail-to-Rail Instrumentation Amplifier, 25μV Offset, 100nV/°C drift, 1 to 1000 Gain, Alternate KiCAD Library"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina333.pdf"
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8"
 			(at 121.92 80.01 0)
 			(effects
 				(font
@@ -2099,15 +2220,17 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 81.28 82.55 90)
+		(at 81.28 77.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d8935379-7945-4079-b600-324b32194a7d")
 		(property "Reference" "R18"
-			(at 81.28 87.63 90)
+			(at 81.28 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2238,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 81.28 85.09 90)
+			(at 81.28 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2246,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 82.55 0)
+			(at 81.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 82.55 0)
+			(at 81.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2264,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 81.28 82.55 0)
+			(at 81.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,6 +2300,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e79b0a2a-00cf-4af0-bcd7-985b8812e858")
 		(property "Reference" "#FLG06"
 			(at 114.3 53.975 0)
@@ -2188,7 +2312,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 114.3 51.435 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

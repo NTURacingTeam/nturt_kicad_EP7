@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "eeef9b36-2f0f-45b2-b45d-6fcea454492c")
 	(paper "A3")
+	(title_block
+		(title "INV_Boost_Controller")
+		(date "2026-03-09")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -1238,6 +1246,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -1494,21 +1511,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -4368,29 +4383,177 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts_EP6:MSD-4-A"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 29.21 7.62 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "nturt_kicad_lib_EP7:MSD-4-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J10"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Value" "MSD-4-A"
-				(at 29.21 5.08 0)
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "MSD4A"
+			(property "Footprint" "nturt_kicad_lib_EP7:MSD4A"
 				(at 29.21 -94.92 0)
 				(effects
 					(font
@@ -4400,7 +4563,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/msd-4-a.pdf"
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/pdf/msd-4-a.pdf"
 				(at 29.21 -194.92 0)
 				(effects
 					(font
@@ -4410,7 +4573,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro SD Card Connector, 9 Positions, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash"
+			(property "Description" "Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board,"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4439,7 +4602,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D"
 				(at 29.21 -594.92 0)
 				(effects
 					(font
@@ -4449,7 +4612,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Same Sky"
+			(property "Manufacturer_Name" "CUI Devices"
 				(at 29.21 -694.92 0)
 				(effects
 					(font
@@ -4708,156 +4871,6 @@
 						)
 					)
 					(number "CD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8798,6 +8811,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "058b0d36-dedf-4484-9122-cd68843a9740")
 		)
@@ -8993,6 +9015,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 53.34 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 53.34 226.06 0)
 			(effects
 				(font
@@ -10800,6 +10831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53630e3a-f436-4ba7-b0b5-46a92727ee09")
 		)
@@ -12255,7 +12295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts_EP6:MSD-4-A")
+		(lib_id "nturt_kicad_lib_EP7:MSD-4-A")
 		(at 349.25 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12280,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:TF-SMD_HX-TF-CARD-H1.8-SY"
+		(property "Footprint" "nturt_kicad_lib_EP7:MSD4A"
 			(at 378.46 289.23 0)
 			(effects
 				(font
@@ -12290,7 +12330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/msd-4-a.pdf"
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pdf/msd-4-a.pdf"
 			(at 378.46 389.23 0)
 			(effects
 				(font
@@ -12300,7 +12340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micro SD Card Connector, 9 Positions, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash"
+		(property "Description" "Memory Card Connectors 9 Positions, Push In, Auto Eject Out, SMT, 1.8 mm Height Above Board,"
 			(at 349.25 194.31 0)
 			(effects
 				(font
@@ -12329,7 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D"
 			(at 378.46 789.23 0)
 			(effects
 				(font
@@ -12339,7 +12379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Same Sky"
+		(property "Manufacturer_Name" "CUI Devices"
 			(at 378.46 889.23 0)
 			(effects
 				(font
@@ -12433,7 +12473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Personal:box_header_14P_pitch127"
+		(property "Footprint" "nturt_kicad_lib_EP7:box_header_14P_pitch1.27"
 			(at 370.84 166.37 0)
 			(effects
 				(font
@@ -12906,6 +12946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80402292-b9d1-4ea4-9309-ffb1f61ce2f6")
 		)
@@ -13254,6 +13303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6deb78cf-d753-4987-897c-e4a7de2a0a2f")
 		)
@@ -13552,6 +13610,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 22.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c25cc73d-4902-4019-a2fe-6c78c6a21626")
 		)
@@ -13684,6 +13751,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 22.86 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 22.86 226.06 0)
 			(effects
 				(font
@@ -14310,6 +14386,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
+			(at 33.02 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 33.02 201.93 0)
 			(effects
 				(font

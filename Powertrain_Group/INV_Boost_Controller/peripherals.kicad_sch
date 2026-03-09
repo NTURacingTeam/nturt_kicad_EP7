@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "a4b7df37-6457-42cf-b698-aadd1dbfccd8")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Controller")
+		(date "2026-03-09")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -854,21 +862,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1851,364 +1857,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts_EP6:EXC-X4CE900U"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at -0.254 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "EXC-X4CE900U"
-				(at -0.254 -0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EXCX4CE900U"
-				(at 3.048 -92.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AWE0000/AWE0000C258.pdf"
-				(at 3.048 -192.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Series/Type: Common mode Filters (0202 small size), Size [LW] (mm): 0.650.50, Height (mm): 0.3, Impedance [Common Mode] (): 90, Rated Voltage [DC] (V): 5, Rated Current [DC] (mA): 100, DC Resistance [max.] (): 3.0+/-30%, Number of circuit: 1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 3.048 -392.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "667-EXC-X4CE900U"
-				(at 3.048 -492.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXC-X4CE900U?qs=r%2Fc3XikQTkKbkY%2FGNti4Lw%3D%3D"
-				(at 3.048 -592.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 3.048 -692.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "EXC-X4CE900U"
-				(at 3.048 -792.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Simulation Data" "https://industrial.panasonic.com/content/data/CC/files/EXCX4CE900U.zip"
-				(at 3.048 -892.126 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "EXC-X4CE900U_1_1"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 7.366)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.488 5.08)
-					(mid -1.2689 3.81)
-					(end -2.488 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.488 2.54)
-					(mid -1.2689 1.27)
-					(end -2.488 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.488 0)
-					(mid -1.2689 -1.27)
-					(end -2.488 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.488 -2.54)
-					(mid -1.2689 -3.81)
-					(end -2.488 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 -7.366)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 5.08) (xy -0.635 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 5.08) (xy 0.635 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 7.366)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.488 2.54)
-					(mid 1.2689 3.81)
-					(end 2.488 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.488 0)
-					(mid 1.2689 1.27)
-					(end 2.488 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.488 -2.54)
-					(mid 1.2689 -1.27)
-					(end 2.488 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.488 -5.08)
-					(mid 1.2689 -3.81)
-					(end 2.488 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 2.54 -7.366)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 10.16 270)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 10.16 270)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -10.16 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_DIP_x01"
 			(pin_names
 				(offset 0)
@@ -2367,27 +2015,385 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nturt_kicad_lib_EP6:TCAN1042VDRQ1"
+		(symbol "nturt_kicad_lib_EP7:EXC-X4CE900U"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL3"
+				(at -7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EXC14CE121U"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "nturt_kicad_lib_EP7:EXCX4CE900U"
+				(at 3.048 -92.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AWE0000/AWE0000C258.pdf"
+				(at 3.048 -192.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Series/Type: Common mode Filters (0202 small size), Size [LW] (mm): 0.650.50, Height (mm): 0.3, Impedance [Common Mode] (): 90, Rated Voltage [DC] (V): 5, Rated Current [DC] (mA): 100, DC Resistance [max.] (): 3.0+/-30%, Number of circuit: 1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 3.048 -392.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-EXC-X4CE900U"
+				(at 3.048 -492.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EXC-X4CE900U?qs=r%2Fc3XikQTkKbkY%2FGNti4Lw%3D%3D"
+				(at 3.048 -592.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 3.048 -692.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EXC-X4CE900U"
+				(at 3.048 -792.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Simulation Data" "https://industrial.panasonic.com/content/data/CC/files/EXCX4CE900U.zip"
+				(at 3.048 -892.126 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EXC-X4CE900U_1_1"
+				(polyline
+					(pts
+						(xy -1.27 3.302) (xy -1.27 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.032)
+					(mid -0.762 1.524)
+					(end -1.27 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.016)
+					(mid -0.762 0.508)
+					(end -1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.762 -0.508)
+					(end -1.27 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.016)
+					(mid -0.762 -1.524)
+					(end -1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.032) (xy -1.27 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 2.54) (xy -0.254 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -2.286) (xy 0.254 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.032) (xy 1.27 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.016)
+					(mid 0.762 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0.762 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.016)
+					(mid 0.762 -0.508)
+					(end 1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -2.032)
+					(mid 0.762 -1.524)
+					(end 1.27 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.302) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "nturt_kicad_lib_EP7:TCAN1042VDRQ1"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U14"
+				(at 2.1433 -8.89 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "TCAN1042VDRQ1"
-				(at 0 0 0)
+				(at 2.1433 -11.43 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -3176,6 +3182,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 35.56) (xy 127 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008a4f86-fb9f-457f-b3f4-d5c0a21a5bb4")
+	)
+	(wire
+		(pts
 			(xy 66.04 49.53) (xy 66.04 48.26)
 		)
 		(stroke
@@ -3183,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "015b9f80-c3bb-4f36-84a5-4701a7beae9b")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0340133e-9e6b-487c-92a7-e2c66b76006e")
 	)
 	(wire
 		(pts
@@ -3226,6 +3252,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 80.01) (xy 111.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d473728-f66c-4324-9cc6-009276064a4d")
+	)
+	(wire
+		(pts
 			(xy 64.77 36.83) (xy 68.58 36.83)
 		)
 		(stroke
@@ -3256,6 +3292,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 78.74) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113491ff-86d3-4e3d-8ee5-c943d76b5131")
+	)
+	(wire
+		(pts
 			(xy 20.32 44.45) (xy 20.32 43.18)
 		)
 		(stroke
@@ -3266,6 +3312,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 38.1) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b4eb3f-8d97-404d-999a-b11f89a231d9")
+	)
+	(wire
+		(pts
 			(xy 66.04 87.63) (xy 66.04 85.09)
 		)
 		(stroke
@@ -3273,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "127b9171-bcd5-44c8-9694-7e83086b38be")
+	)
+	(wire
+		(pts
+			(xy 106.68 35.56) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b4d96c-5b6e-4fba-9d4a-0611a11238db")
 	)
 	(wire
 		(pts
@@ -3336,6 +3402,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec9a7da-7228-4613-a501-84450288db89")
+	)
+	(wire
+		(pts
 			(xy 30.48 88.9) (xy 30.48 87.63)
 		)
 		(stroke
@@ -3363,6 +3439,16 @@
 			(type default)
 		)
 		(uuid "335791c4-2553-4dab-a7f3-cec6ea6c5c62")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3495bfd3-bcc9-4344-bc88-870f09e6194d")
 	)
 	(wire
 		(pts
@@ -3436,6 +3522,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1ed236-3a24-4342-af88-05f4f5d3f81f")
+	)
+	(wire
+		(pts
 			(xy 142.24 49.53) (xy 147.32 49.53)
 		)
 		(stroke
@@ -3453,6 +3549,16 @@
 			(type default)
 		)
 		(uuid "54b8b65e-a8c6-4978-b629-4ff1da88f3c4")
+	)
+	(wire
+		(pts
+			(xy 111.76 35.56) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bf241f-23f0-4452-9b3f-52c550fe4dfa")
 	)
 	(wire
 		(pts
@@ -3536,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 106.68 83.82)
+			(xy 93.98 83.82) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3756,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acee14c2-3241-4f55-83a7-8c652ff2a6d3")
+	)
+	(wire
+		(pts
 			(xy 170.18 34.29) (xy 170.18 40.64)
 		)
 		(stroke
@@ -3783,6 +3899,16 @@
 			(type default)
 		)
 		(uuid "b9bcc85d-8a82-481c-967f-266e802eb7d1")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbf94cf-4362-4848-9e38-00e530e692dd")
 	)
 	(wire
 		(pts
@@ -3936,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 35.56) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf37859-a2de-40b4-b5da-243a994c2fb2")
+	)
+	(wire
+		(pts
 			(xy 147.32 34.29) (xy 147.32 41.91)
 		)
 		(stroke
@@ -4056,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 80.01) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa382f3f-dab0-42b2-bb32-f32614e9954a")
+	)
+	(wire
+		(pts
 			(xy 30.48 44.45) (xy 30.48 43.18)
 		)
 		(stroke
@@ -4063,6 +4209,16 @@
 			(type default)
 		)
 		(uuid "fa45200a-56b7-49b5-901d-7533c3287e9d")
+	)
+	(wire
+		(pts
+			(xy 127 38.1) (xy 127 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6402ec-de8d-4086-9c03-1ec0a7324d9c")
 	)
 	(wire
 		(pts
@@ -5250,7 +5406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nturt_kicad_lib_EP6:TCAN1042VDRQ1")
+		(lib_id "nturt_kicad_lib_EP7:TCAN1042VDRQ1")
 		(at 81.28 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5746,7 +5902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts_EP6:EXC-X4CE900U")
+		(lib_id "nturt_kicad_lib_EP7:EXC-X4CE900U")
 		(at 116.84 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5756,7 +5912,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c4c4c28-e929-4290-98ba-80686c4c87a6")
 		(property "Reference" "FL3"
-			(at 116.84 73.66 90)
+			(at 116.84 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,14 +5920,14 @@
 			)
 		)
 		(property "Value" "EXC-X4CE900U"
-			(at 116.84 76.2 90)
+			(at 116.84 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:EXCX4CE900U"
+		(property "Footprint" "nturt_kicad_lib_EP7:EXCX4CE900U"
 			(at 24.714 84.328 0)
 			(effects
 				(font
@@ -6014,7 +6170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nturt_kicad_lib_EP6:TCAN1042VDRQ1")
+		(lib_id "nturt_kicad_lib_EP7:TCAN1042VDRQ1")
 		(at 81.28 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6103,7 +6259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts_EP6:EXC-X4CE900U")
+		(lib_id "nturt_kicad_lib_EP7:EXC-X4CE900U")
 		(at 116.84 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6113,7 +6269,7 @@
 		(fields_autoplaced yes)
 		(uuid "55652464-410e-44a9-b9b1-a978dc4a5eae")
 		(property "Reference" "FL2"
-			(at 116.84 29.21 90)
+			(at 116.84 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,14 +6277,14 @@
 			)
 		)
 		(property "Value" "EXC-X4CE900U"
-			(at 116.84 31.75 90)
+			(at 116.84 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:EXCX4CE900U"
+		(property "Footprint" "nturt_kicad_lib_EP7:EXCX4CE900U"
 			(at 24.714 39.878 0)
 			(effects
 				(font

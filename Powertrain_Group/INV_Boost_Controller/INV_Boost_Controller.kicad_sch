@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "339fbb04-85df-4733-b472-bb8d1fbc53aa")
 	(paper "A4")
+	(title_block
+		(title "INV_Boost_Controller")
+		(date "2026-03-09")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "Shinkansen942")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -517,29 +525,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Samacsys:15120682601000"
+		(symbol "nturt_kicad_lib_EP7:Harting_15120682601000"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 21.59 7.62 0)
+			(property "Reference" "J5"
+				(at 12.7 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "15120682601000"
-				(at 21.59 5.08 0)
+			(property "Value" "Harting_15120682601000"
+				(at 12.7 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "Samacsys:15120682601000"
+			(property "Footprint" "nturt_kicad_lib_EP7:Harting 15120682601000"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -638,7 +644,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "15120682601000_1_1"
+			(symbol "Harting_15120682601000_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -86.36)
@@ -4086,7 +4092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 79.0448 181.61 0)
 			(effects
 				(font
@@ -4329,7 +4335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Samacsys:15120682601000")
+		(lib_id "nturt_kicad_lib_EP7:Harting_15120682601000")
 		(at 80.01 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4353,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:15120682601000"
+		(property "Footprint" "nturt_kicad_lib_EP7:Harting 15120682601000"
 			(at 101.6 153.34 0)
 			(effects
 				(font
@@ -4693,7 +4699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 32.0548 181.61 0)
 			(effects
 				(font
@@ -4830,7 +4836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 56.1848 181.61 0)
 			(effects
 				(font
@@ -6392,7 +6398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Personal:C_8060_Murata_DK1"
+		(property "Footprint" "nturt_kicad_lib_EP7:C_8060_Murata_DK1"
 			(at 100.6348 181.61 0)
 			(effects
 				(font
@@ -6814,7 +6820,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "6")
 				)
@@ -6932,7 +6938,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "2")
 				)
@@ -7050,7 +7056,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "3")
 				)
@@ -7168,7 +7174,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "5")
 				)
@@ -7286,7 +7292,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "13")
 				)
@@ -7328,7 +7334,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "8")
 				)
@@ -7436,7 +7442,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "14")
 				)
@@ -7578,7 +7584,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "9")
 				)
@@ -7696,7 +7702,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "4")
 				)
@@ -7804,7 +7810,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "7")
 				)
@@ -8116,7 +8122,7 @@
 			)
 		)
 		(instances
-			(project "Boost_controller"
+			(project "INV_Boost_Controller"
 				(path "/339fbb04-85df-4733-b472-bb8d1fbc53aa"
 					(page "10")
 				)

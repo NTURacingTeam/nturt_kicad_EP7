@@ -1,0 +1,524 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ca06c17-007e-46f3-a834-4d8a0306249e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 99.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c018ab-901e-4654-a5fc-0734d7eadd56")
+	)
+	(junction
+		(at 99.06 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee78a28-4514-4a20-a27c-5f4bcd21e44b")
+	)
+	(junction
+		(at 107.95 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fc736b1-7aa0-4db7-8f41-004873a005d8")
+	)
+	(junction
+		(at 107.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98facc0d-b7aa-42da-b9cf-85b59dffa019")
+	)
+	(junction
+		(at 95.25 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b42828-9acf-46f9-a90b-275ac1c4eb03")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 116.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b82123-1b73-4928-ae68-ba07898dcfd0")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcfed9d-92ad-4320-a646-8a37702a9648")
+	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40419bcc-d787-4c44-bf20-87b4a25be988")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49172f4a-e4e4-43dd-8c03-ed4676219490")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa9eb1e-0339-43f4-8d29-7df1f4120bc7")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6a3497-767c-4ef0-9a68-85a184955dfb")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e315ef-2ef2-43a3-aba5-95c2bf32aabd")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac54804d-fae8-49df-891c-1c5d1000209e")
+	)
+	(hierarchical_label "V_in"
+		(shape input)
+		(at 93.98 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97fd8b82-cd82-4395-b8c4-a7510cf4b81a")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2a366c81-d79f-459d-84e1-3a7c5c0e933f")
+		(property "Reference" "R42"
+			(at 119.38 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 119.38 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 115.062 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_1-10-2024_CRF-Jumper_datasheet.pdf?_gl=1*1g445uf*_gcl_au*MTA4MTQxMjQ2LjE3NzAyNzg5NjYuMTM1NDc2MzQ3NC4xNzcwMzcxMzcwLjE3NzAzNzEzOTY.*_ga*MjYyOTIzMTAzLjE3NTQ3MTQ1NzU.*_ga_15W4STQT4T*czE3NzAzNzEzNzAkbzc2JGcxJHQxNzcwMzcxNDY3JGozMiRsMCRoMA.."
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1044b630-d5d0-40bf-854b-9be04493669b")
+		)
+		(pin "1"
+			(uuid "545188d8-8b6f-4fcd-a2de-d5ba5f5d144e")
+		)
+		(instances
+			(project "INV_PowerBoard_Discrete"
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/0ea8d247-c00d-4721-895e-b17e2759358e"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/13043a74-ec87-4fd0-b846-8fca2cc5fc3b"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/59d60a93-1054-45d4-ba80-42c224aecf91"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/73f70c65-773e-4668-8479-d7a507e6880e"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/d8fc0780-d3a3-4920-b018-3c884972a46d"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/f432dae6-565a-4a33-9316-f0adaf7d5842"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "383a28fb-0d43-4b84-82cc-8bc055e94b2f")
+		(property "Reference" "R40"
+			(at 101.6 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 101.6 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 97.282 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_1-10-2024_CRF-Jumper_datasheet.pdf?_gl=1*1g445uf*_gcl_au*MTA4MTQxMjQ2LjE3NzAyNzg5NjYuMTM1NDc2MzQ3NC4xNzcwMzcxMzcwLjE3NzAzNzEzOTY.*_ga*MjYyOTIzMTAzLjE3NTQ3MTQ1NzU.*_ga_15W4STQT4T*czE3NzAzNzEzNzAkbzc2JGcxJHQxNzcwMzcxNDY3JGozMiRsMCRoMA.."
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ca78de4-9976-47d0-98f2-7dc942dfdcbf")
+		)
+		(pin "1"
+			(uuid "24a3927a-8771-4e2c-817e-a1bbf78c72b0")
+		)
+		(instances
+			(project "INV_PowerBoard_Discrete"
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/0ea8d247-c00d-4721-895e-b17e2759358e"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/13043a74-ec87-4fd0-b846-8fca2cc5fc3b"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/59d60a93-1054-45d4-ba80-42c224aecf91"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/73f70c65-773e-4668-8479-d7a507e6880e"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/d8fc0780-d3a3-4920-b018-3c884972a46d"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/f432dae6-565a-4a33-9316-f0adaf7d5842"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7776cd1f-5e25-436a-9812-ce462142041a")
+		(property "Reference" "R41"
+			(at 110.49 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 110.49 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 106.172 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Bourns_1-10-2024_CRF-Jumper_datasheet.pdf?_gl=1*1g445uf*_gcl_au*MTA4MTQxMjQ2LjE3NzAyNzg5NjYuMTM1NDc2MzQ3NC4xNzcwMzcxMzcwLjE3NzAzNzEzOTY.*_ga*MjYyOTIzMTAzLjE3NTQ3MTQ1NzU.*_ga_15W4STQT4T*czE3NzAzNzEzNzAkbzc2JGcxJHQxNzcwMzcxNDY3JGozMiRsMCRoMA.."
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57937540-5e89-405f-8d5a-c16d4fc79c56")
+		)
+		(pin "1"
+			(uuid "52064c98-d61e-4b31-8765-a778b42f4371")
+		)
+		(instances
+			(project "INV_PowerBoard_Discrete"
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/0ea8d247-c00d-4721-895e-b17e2759358e"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/13043a74-ec87-4fd0-b846-8fca2cc5fc3b"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/59d60a93-1054-45d4-ba80-42c224aecf91"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/73f70c65-773e-4668-8479-d7a507e6880e"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/d8fc0780-d3a3-4920-b018-3c884972a46d"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832/f432dae6-565a-4a33-9316-f0adaf7d5842"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

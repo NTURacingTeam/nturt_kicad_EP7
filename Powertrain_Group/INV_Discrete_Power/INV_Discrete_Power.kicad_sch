@@ -7,7 +7,7 @@
 	(title_block
 		(title "INV_Discrete_Power")
 		(date "2026-03-13")
-		(rev "1.1")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "LY Chen")
 		(comment 2 "Jack Kuo")
@@ -236,7 +236,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V1.0 init by LY Chen\nV1.1 modified by Jack Kuo\n     use sub schematic for each phase\n     clear unconnected error in layout\n     etc."
+	(text "V1.0 init by LY Chen\nV1.1 modified by Jack Kuo\n     use sub schematic for each phase\n     clear unconnected error in layout\n     etc.\nV1.2 update libs\n     some minor fix on layout"
 		(exclude_from_sim no)
 		(at 138.176 24.638 0)
 		(effects
@@ -249,21 +249,11 @@
 	)
 	(no_connect
 		(at 109.22 36.83)
-		(uuid "903aa7de-75fb-46b6-8a8c-a51f60aec71a")
+		(uuid "5fd983ca-fffb-474c-a99d-e963961cead9")
 	)
 	(no_connect
 		(at 109.22 116.84)
-		(uuid "ae161ad8-68c8-4e20-84d3-fb6204b9eb1e")
-	)
-	(wire
-		(pts
-			(xy 101.6 116.84) (xy 109.22 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04cb0943-8237-4fa5-b1cd-3523ead701a0")
+		(uuid "c1ed58c4-f5d6-499e-bd81-3e99494d325a")
 	)
 	(wire
 		(pts
@@ -284,6 +274,16 @@
 			(type default)
 		)
 		(uuid "1a6c3f47-4443-4e19-9931-ad74dc54aa28")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acd6e6a-52cd-4ea1-ba34-1356bb9a950c")
 	)
 	(wire
 		(pts
@@ -317,6 +317,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 36.83) (xy 109.22 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dde307-77d9-4f79-b8a2-f3c034e08c08")
+	)
+	(wire
+		(pts
 			(xy 109.22 55.88) (xy 109.22 44.45)
 		)
 		(stroke
@@ -324,16 +334,6 @@
 			(type default)
 		)
 		(uuid "3d535b53-4efc-4137-9535-544acbd2efdd")
-	)
-	(wire
-		(pts
-			(xy 101.6 36.83) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77def689-20d9-4720-ab96-2bcfea21b1d3")
 	)
 	(wire
 		(pts
@@ -420,6 +420,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 109.22 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2182a20a-d106-4427-8db5-f2e6407227ad")
+		(property "Reference" "C101"
+			(at 114.3 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2uF"
+			(at 114.3 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nturt_kicad_lib_EP7:TDK_Ceralink_FA2"
+			(at 108.2548 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4aff3f16-0f6f-47af-bdb2-b7557a9b75f5")
+		)
+		(pin "1"
+			(uuid "c84c16c4-c8ab-42d7-963c-2c47b1e48abd")
+		)
+		(instances
+			(project "INV_Discrete_Power"
+				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 254 26.67 0)
 		(unit 1)
@@ -478,77 +549,6 @@
 			(project "INV_PowerBoard_Discrete"
 				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832"
 					(reference "H104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 109.22 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49749cb3-cc82-4dc9-95b8-cf4f56573cd6")
-		(property "Reference" "C101"
-			(at 114.3 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2uF"
-			(at 114.3 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts_EP6:B58035U5205M062"
-			(at 108.2548 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4aff3f16-0f6f-47af-bdb2-b7557a9b75f5")
-		)
-		(pin "1"
-			(uuid "c84c16c4-c8ab-42d7-963c-2c47b1e48abd")
-		)
-		(instances
-			(project "INV_Discrete_Power"
-				(path "/9e898284-d9ff-4f9a-ae15-0d63340d3832"
-					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -711,7 +711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts_EP6:B58035U5205M062"
+		(property "Footprint" "nturt_kicad_lib_EP7:TDK_Ceralink_FA2"
 			(at 108.2548 100.33 0)
 			(effects
 				(font

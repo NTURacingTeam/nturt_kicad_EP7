@@ -132,7 +132,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -224,7 +224,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -631,36 +631,40 @@
       "Root"
     ],
     [
-      "9fe46afb-def9-4c07-a73f-2a25123bb809",
-      "DC_link"
+      "fe83ff20-60c0-4be3-9338-589f63e39e0a",
+      "phaseW"
     ],
     [
-      "18bd1f60-d9f0-413f-ac89-f168fe22cd01",
-      "current_sensing_U"
+      "a0fc4c68-d482-493b-8644-9a8cd51d84bb",
+      "phaseV"
     ],
     [
-      "9aabaff6-d662-4c9d-b680-b9aaae76e533",
-      "current_sensing_V"
+      "c77e4125-94f5-4904-8125-91bb3acec247",
+      "phaseU"
     ],
     [
-      "a6d7f19e-f9a5-418e-ab79-806a027d3ee8",
-      "current_sensing_W"
+      "7814e830-0679-4015-bfdc-dc60960ca0f9",
+      "gate_drive"
     ],
     [
-      "d30341ef-d1e9-44ed-a331-b43cbc91afd5",
-      "gate_drive_U"
+      "34ed3d9a-dbcb-4a22-b1d9-048d5d690cd8",
+      "current_sensing"
     ],
     [
-      "141e10b5-c54a-46b9-9b6b-561a5c9905b9",
-      "gate_drive_V"
+      "7814e830-0679-4015-bfdc-dc60960ca0f9",
+      "gate_drive"
     ],
     [
-      "f9950a80-0827-4038-ab74-c089808d86fc",
-      "gate_drive_W"
+      "34ed3d9a-dbcb-4a22-b1d9-048d5d690cd8",
+      "current_sensing"
     ],
     [
-      "e36eafa6-ce39-41ad-88c8-c9ac46936361",
-      "ISO_V_SENSE"
+      "7814e830-0679-4015-bfdc-dc60960ca0f9",
+      "gate_drive"
+    ],
+    [
+      "34ed3d9a-dbcb-4a22-b1d9-048d5d690cd8",
+      "current_sensing"
     ]
   ],
   "text_variables": {}

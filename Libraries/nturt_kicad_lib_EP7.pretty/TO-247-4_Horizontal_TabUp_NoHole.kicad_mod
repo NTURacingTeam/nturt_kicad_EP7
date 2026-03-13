@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "TO-247-4, Horizontal, RM 2.54mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
 	(tags "TO-247-4 Horizontal RM 2.54mm")
-	(property "Reference" "Q2"
+	(property "Reference" "REF**"
 		(at 5.08 -3.2 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "ADR014B12MC"
+	(property "Value" "TO-247-4_Horizontal_TabUp_NoHole"
 		(at 5.08 26.98 0)
 		(layer "F.Fab")
 		(uuid "bb9fa2f5-5ee0-4132-88b1-f85423c6c47a")

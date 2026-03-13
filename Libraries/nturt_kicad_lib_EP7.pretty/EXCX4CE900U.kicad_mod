@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "EXC-X4CE900U")
 	(tags "Common Mode Noise Filter (4-Pin)")
-	(property "Reference" "FL3"
+	(property "Reference" "REF**"
 		(at 0 0.187 180)
 		(layer "F.SilkS")
 		(hide yes)

@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "M12, L-coded, Female")
-	(property "Reference" "J5"
+	(property "Reference" "REF**"
 		(at 0 -5.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")

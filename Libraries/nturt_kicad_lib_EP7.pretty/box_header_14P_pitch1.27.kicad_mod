@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "3221-14-0100-00 ")
-	(property "Reference" "J16"
+	(property "Reference" "REF**"
 		(at -3.82 4.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "STDC14"
+	(property "Value" "box_header_14P_pitch1.27"
 		(at -3.81 0.635 0)
 		(unlocked yes)
 		(layer "F.Fab")

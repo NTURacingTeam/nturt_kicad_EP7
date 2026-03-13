@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "U5"
+	(property "Reference" "REF**"
 		(at -8.3 -8.3 180)
 		(layer "F.SilkS")
 		(hide yes)

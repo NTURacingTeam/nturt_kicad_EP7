@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "REDCUBE THR with external thread, body 7x7x10.5mm, https://www.we-online.com/en/components/products/datasheet/74651175R?ki")
 	(tags "THR")
-	(property "Reference" "MP3"
+	(property "Reference" "REF**"
 		(at 0 -5.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")

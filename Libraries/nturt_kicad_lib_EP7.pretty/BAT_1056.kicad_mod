@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "BT1"
+	(property "Reference" "REF**"
 		(at -6.325 -9.135 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "1056"
+	(property "Value" "BAT_1056"
 		(at -4.42 9.134999 0)
 		(layer "F.Fab")
 		(uuid "0f14bc03-e1b6-48fe-9853-f260481aa3ca")
@@ -47,71 +47,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "PARTREV" "D"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cb450340-0111-43ab-b25a-f9bbee245718")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.065)
-			)
-		)
-	)
-	(property "STANDARD" "Manufacturer Recommendations"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e8633668-d910-41ee-9ef3-3200345811ea")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.065)
-			)
-		)
-	)
-	(property "SNAPEDA_PN" "1056"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "df1c3bbf-ebaa-4aaa-bccd-bcb05277a56e")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.065)
-			)
-		)
-	)
-	(property "MAXIMUM_PACKAGE_HEIGHT" "3.99mm"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "64212ef2-d7d3-44c8-ae0b-4e873dd72554")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.065)
-			)
-		)
-	)
-	(property "MANUFACTURER" "Keystone"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9c4baa47-620c-4a54-bd6a-85e758794b06")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.065)
 			)
 		)
 	)

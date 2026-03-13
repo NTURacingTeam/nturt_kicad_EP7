@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "MLX90640ESF-BAA-000-SP")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "26d8eaa4-7bed-4143-8839-df1d796a21e5")

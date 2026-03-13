@@ -1,0 +1,192 @@
+(footprint "TDK_Ceralink_FA2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "B58035U5205M062-2")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d3110fbe-23c8-45c3-9712-7223eef72d7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TDK_Ceralink_FA2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "212ca6de-580e-4c84-972b-95229174dfa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/ceralink/data_sheet/20/10/ds/b58035_fa.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ddc6ca3-2704-43a8-ad5d-a2862ef488b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25e1b1ec-31b8-40df-9626-6e147f5e9f58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -2)
+		(end -3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f480d51-7b1e-4120-ad8c-9ac5c63e1662")
+	)
+	(fp_line
+		(start 3 -2)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29db815c-0dce-42f6-bee8-528c5d3704f3")
+	)
+	(fp_line
+		(start -4.5 -6.35)
+		(end 4.5 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a61ac296-7254-4970-8ef0-5d4184f27aa6")
+	)
+	(fp_line
+		(start -4.5 6.35)
+		(end -4.5 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47507e89-756b-4bbe-8ec9-264625035aab")
+	)
+	(fp_line
+		(start 4.5 -6.35)
+		(end 4.5 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b525fc3b-2444-4a6a-9784-ff912e4f963a")
+	)
+	(fp_line
+		(start 4.5 6.35)
+		(end -4.5 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08012d5c-8811-4e4a-b582-a6aed5e38696")
+	)
+	(fp_line
+		(start -3 -3.7)
+		(end 3 -3.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "508baa4f-c6c9-45eb-93f8-ee85a8612088")
+	)
+	(fp_line
+		(start -3 3.7)
+		(end -3 -3.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "254dfaba-84fa-40f0-8294-815015ae70ab")
+	)
+	(fp_line
+		(start 3 -3.7)
+		(end 3 3.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17598aa5-780c-41b6-8433-4cc9fa80c5c4")
+	)
+	(fp_line
+		(start 3 3.7)
+		(end -3 3.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71ca669a-ea61-4da6-b95e-75152e1ae134")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4f2cbeae-c20d-47f7-b458-d08958196b83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.925 90)
+		(size 2.85 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca8ade74-c0ef-406f-91d9-14fca4fec07b")
+	)
+	(pad "2" smd rect
+		(at 0 3.925 90)
+		(size 2.85 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47813879-a0a1-4de5-b5b0-432bae14521a")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/TDK_Ceralink_FA2.stp"
+		(offset
+			(xyz 1.499999977 0 5.179999751)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

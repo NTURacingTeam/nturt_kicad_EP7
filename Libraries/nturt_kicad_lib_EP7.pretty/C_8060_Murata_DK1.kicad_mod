@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "2200p"
+	(property "Value" "C_8060_Murata_DK1"
 		(at 0 4.25 0)
 		(layer "F.Fab")
 		(uuid "88a5e32b-ff95-44f3-9084-e9201ab8e6c9")

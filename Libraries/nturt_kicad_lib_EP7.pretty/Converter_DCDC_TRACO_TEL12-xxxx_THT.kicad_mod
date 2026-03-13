@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Traco 12W, THT (https://www.tracopower.com/sites/default/files/products/datasheets/tel12_datasheet.pdf)")
 	(tags "traco dcdc tht 12w")
-	(property "Reference" "U23"
+	(property "Reference" "REF**"
 		(at 5.08 -4.6 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "TEL12-2415"
+	(property "Value" "Converter_DCDC_TRACO_TEL12-xxxx_THT"
 		(at 5.08 22.65 0)
 		(layer "F.Fab")
 		(uuid "70a66186-beb1-404a-9e19-4e1bc736e0dd")

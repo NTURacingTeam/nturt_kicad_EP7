@@ -1,9 +1,9 @@
-(footprint "TKD_CeraLink_FA3"
+(footprint "TDK_CeraLink_FA3"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "C3"
+	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "1.5u"
+	(property "Value" "TDK_Ceralink_FA2"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "~"
+	(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/ceralink/data_sheet/20/10/ds/b58035_fa.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Unpolarized capacitor"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -91,7 +91,7 @@
 		(uuid "e6b841b1-1257-42dd-a127-72a33f49ca80")
 	)
 	(embedded_fonts no)
-	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/CeraLink_FA3_6205-Z04-Ind.072.stp"
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/TDK_Ceralink_FA3.stp"
 		(offset
 			(xyz 0 0 5)
 		)

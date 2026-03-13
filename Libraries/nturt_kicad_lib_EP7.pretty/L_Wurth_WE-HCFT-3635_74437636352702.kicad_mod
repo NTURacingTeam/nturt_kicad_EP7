@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Shielded High Current Inductor, body 36.5x35.7x34.2mm, https://www.we-online.com/en/components/products/WE-HCFT#/articles/WE-HCFT-3635")
 	(tags "THT")
-	(property "Reference" "L1"
+	(property "Reference" "REF**"
 		(at 5.75 -7 0)
 		(unlocked yes)
 		(layer "F.SilkS")

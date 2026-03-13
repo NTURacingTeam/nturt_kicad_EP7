@@ -1,11 +1,11 @@
-(footprint "HARTING 15230682601000"
+(footprint "Harting 15230682601000"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "15230682601000")
 	(tags "Connector")
-	(property "Reference" "J1"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "HARTING 15230682601000"
+	(property "Value" "Harting 15230682601000"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)

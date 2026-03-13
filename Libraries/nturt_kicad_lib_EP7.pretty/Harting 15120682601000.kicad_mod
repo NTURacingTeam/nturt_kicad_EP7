@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "15120682601000")
 	(tags "Connector")
-	(property "Reference" "J5"
+	(property "Reference" "REF**"
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)

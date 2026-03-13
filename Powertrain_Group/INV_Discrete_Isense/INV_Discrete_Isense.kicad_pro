@@ -51,7 +51,13 @@
           "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -125,7 +131,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,8 +215,13 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -424,7 +437,7 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -613,18 +626,6 @@
     [
       "1d817fde-8920-4bae-8603-e066193ea7e9",
       "Root"
-    ],
-    [
-      "aa23f956-8052-417f-bfb0-677547858e2e",
-      "U"
-    ],
-    [
-      "8c1cf4de-1c98-4038-8b95-93a9154c2a1f",
-      "V"
-    ],
-    [
-      "c89c5a2e-207b-4ec8-a7fb-2d76f3618df6",
-      "W"
     ]
   ],
   "text_variables": {}

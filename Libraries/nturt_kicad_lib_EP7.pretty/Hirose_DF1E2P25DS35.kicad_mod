@@ -1,0 +1,402 @@
+(footprint "Hirose_DF1E2P25DS35"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DF1E-2P-2.5DS(35)-3")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 1.25 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "6234d09c-68e3-41bd-adb3-3e4ea07fa6b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DF1E-2P-2.5DS_35_"
+		(at 1.25 -3.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd382d0e-f1a5-479c-904a-e1949c07a06a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f984e044-9ceb-486d-994f-ae615970025d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8eafed5-ef62-4de7-bb3d-ca1949d800b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "9.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efb093e3-2d5d-4be3-9990-64ad95c781b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "798-DF1E-2P-2.5DS35"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aac4f871-b7ce-44e5-a10b-d44a7063e647")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF1E-2P-2.5DS35?qs=bkeGI61iuy17GoY5T9xXZg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52e22bc1-ae58-44cd-9301-77ec19862791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Hirose"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5624a98-e123-47ec-a2e8-8108aa49a074")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DF1E-2P-2.5DS(35)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3203f5b-05ae-4957-a5eb-35a164c85525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.1 0)
+		(end -3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "287a78db-979d-4697-9c55-e169c2be77a5")
+	)
+	(fp_line
+		(start -3 0)
+		(end -3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4e88580-db4f-4d92-b78e-f1a62ef092bb")
+	)
+	(fp_line
+		(start -2.5 -10.8)
+		(end 5 -10.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c55418f-bbeb-4dbf-bbc7-26e4755be998")
+	)
+	(fp_line
+		(start -2.5 3)
+		(end -2.5 -10.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10ac8bc9-2577-4f73-967d-410061581d81")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end -1.25 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f91ef59-93fb-4ec7-9182-813a3492be8f")
+	)
+	(fp_line
+		(start -1.25 3)
+		(end -2.5 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07c6192d-19a2-4f6b-81fc-4e606a101da2")
+	)
+	(fp_line
+		(start 3.75 3)
+		(end 3.75 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd24a7e6-d5f4-4b45-ac4e-0dbc935109fa")
+	)
+	(fp_line
+		(start 5 -10.8)
+		(end 5 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec5ba2f1-d2f7-48a5-81e0-548625dee76f")
+	)
+	(fp_line
+		(start 5 3)
+		(end 3.75 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d78245b2-c73a-4ead-9645-2c24a3fe4dd3")
+	)
+	(fp_arc
+		(start -3.1 0)
+		(mid -3.05 -0.05)
+		(end -3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e408c880-5bc1-427a-a1d9-222a60683fde")
+	)
+	(fp_arc
+		(start -3 0)
+		(mid -3.05 0.05)
+		(end -3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d12e9ef4-d1c1-4d0e-8ca3-c6d05505da9b")
+	)
+	(fp_line
+		(start -3.5 -11.8)
+		(end 6 -11.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4444cd4b-df8d-421a-bc1b-1d005897bc52")
+	)
+	(fp_line
+		(start -3.5 4)
+		(end -3.5 -11.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12de5a65-0460-41ed-99d6-a6f54aec50fa")
+	)
+	(fp_line
+		(start 6 -11.8)
+		(end 6 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99ac453f-95f5-4d99-af87-1f4023070a36")
+	)
+	(fp_line
+		(start 6 4)
+		(end -3.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ebba188-2ced-48aa-98ad-786746eefb30")
+	)
+	(fp_line
+		(start -2.5 -10.8)
+		(end -2.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0bd4101-fd5f-4b99-a21e-45eb10f208a8")
+	)
+	(fp_line
+		(start -2.5 3)
+		(end -1.25 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d6e30c8-32c3-4f80-9e42-6ff222f99ec7")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end 3.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38b92c9c-bacf-4db2-a2c0-bcb10283d7e2")
+	)
+	(fp_line
+		(start -1.25 3)
+		(end -1.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70c091f6-1655-4b3b-b97b-5241b1be63d5")
+	)
+	(fp_line
+		(start 1.25 -10.8)
+		(end -2.5 -10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d1d3104-5016-4685-8b06-549ccb866788")
+	)
+	(fp_line
+		(start 3.75 0)
+		(end 3.75 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb08235d-f3de-44cd-ab19-c3c9ca949e8d")
+	)
+	(fp_line
+		(start 3.75 3)
+		(end 5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf1173d9-da33-4602-b541-66ec5327ea6e")
+	)
+	(fp_line
+		(start 5 -10.8)
+		(end 1.25 -10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3da457d6-ab8c-41a6-8fd3-256f9c3c884b")
+	)
+	(fp_line
+		(start 5 3)
+		(end 5 -10.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0da3771-633a-4946-9f5b-09590fb847cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 -3.9 0)
+		(layer "F.Fab")
+		(uuid "051d2286-6d62-49cf-abb5-142d515c736b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26c0464b-2009-4a94-b55c-97b85dce9fc7")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "726bfe3c-b651-4734-9dca-f16335467111")
+	)
+	(embedded_fonts no)
+	(model "${NTURT_KICAD_ROOT}/EP7/Libraries/3d_models/Hirose_DF1E-2P-2.5DS_35_.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

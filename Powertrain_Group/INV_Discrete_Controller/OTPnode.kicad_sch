@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "b2dc0b08-1467-42cb-b277-82ad70f69466")
 	(paper "A4")
+	(title_block
+		(title "INV_Discrete_Controller")
+		(date "2026-03-15")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "LY Chen")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
 		(symbol "Comparator:LM393"
 			(pin_names
@@ -572,26 +580,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -599,7 +608,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -616,7 +625,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -625,7 +634,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -643,12 +652,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -656,10 +665,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -676,8 +685,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -1029,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 120.65) (xy 105.41 111.76)
+			(xy 105.41 111.76) (xy 105.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 105.41 129.54)
+			(xy 105.41 127) (xy 105.41 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1129,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 129.54) (xy 105.41 130.81)
+			(xy 105.41 129.54) (xy 105.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1146,6 +1155,16 @@
 			(type default)
 		)
 		(uuid "d4866dd4-318b-484d-ac07-6f30f4df5439")
+	)
+	(wire
+		(pts
+			(xy 105.41 137.16) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd040f94-238e-4644-bacd-47ee0fbe252a")
 	)
 	(wire
 		(pts
@@ -1272,7 +1291,7 @@
 		(uuid "eacf2df3-cfa5-482b-a30e-13261c8e5962")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 105.41 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -1300,7 +1319,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.188 134.62 90)
+			(at 105.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 105.41 134.62 0)
 			(effects
 				(font
@@ -1574,7 +1593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 105.41 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -1602,7 +1621,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.188 124.46 90)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 105.41 124.46 0)
 			(effects
 				(font

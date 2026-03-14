@@ -100,9 +100,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -475,7 +475,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
@@ -496,32 +496,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Peripherals/CAN1H": [
-        "CAN"
-      ],
-      "/Peripherals/CAN1L": [
-        "CAN"
-      ],
-      "/Peripherals/CAN2H": [
-        "CAN"
-      ],
-      "/Peripherals/CAN2L": [
-        "CAN"
-      ],
-      "Net-(U5-CANH)": [
-        "CAN"
-      ],
-      "Net-(U5-CANL)": [
-        "CAN"
-      ],
-      "Net-(U6-CANH)": [
-        "CAN"
-      ],
-      "Net-(U6-CANL)": [
-        "CAN"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -678,7 +653,7 @@
     ],
     [
       "fb77137d-57f0-4df1-9084-268129f82123",
-      "IsenseNode"
+      "DCVsenseNode"
     ],
     [
       "171a248d-9967-421f-a907-1773a60f7ff0",
@@ -693,10 +668,6 @@
       "IsenseNodeU"
     ],
     [
-      "c271d624-4820-4447-8e61-6f4d87341afb",
-      "PWM_Enable1"
-    ],
-    [
       "4bdee0d4-7c63-44e7-be92-225b3e5de508",
       "OCPnode1"
     ],
@@ -709,36 +680,8 @@
       "OCPnode3"
     ],
     [
-      "842312e6-ed4a-451d-8be5-48044da0ce66",
-      "PWM_Enable2"
-    ],
-    [
-      "2d97677d-357e-4476-a225-4c9ad0886b13",
-      "SR_Latch"
-    ],
-    [
-      "7d3ec25b-2d29-41fc-a119-54ddb1c8fbeb",
-      "PWM_Enable"
-    ],
-    [
       "6c425024-5664-44c4-bd7a-75ed47ab7c31",
       "MotTempNode"
-    ],
-    [
-      "6516471c-06b4-450f-92e6-ef2f24c71b06",
-      "PWM_Enable3"
-    ],
-    [
-      "392cb4e1-0083-4fbc-9fc8-96d73217bf1d",
-      "PWM_Enable4"
-    ],
-    [
-      "213acd10-1793-4351-82a9-bd01a853b0f8",
-      "PWM_Enable5"
-    ],
-    [
-      "8bad7d7b-df78-4981-8b01-095cbe1d0b16",
-      "VsenseNode"
     ],
     [
       "d44112bc-55d9-4363-98e8-ea2b6b78d8b5",
@@ -763,6 +706,38 @@
     [
       "3d9098ce-51be-4fa3-b89f-1cf76e497743",
       "OTPnode"
+    ],
+    [
+      "8bad7d7b-df78-4981-8b01-095cbe1d0b16",
+      "VsenseNode"
+    ],
+    [
+      "7d3ec25b-2d29-41fc-a119-54ddb1c8fbeb",
+      "PWM_Enable"
+    ],
+    [
+      "c271d624-4820-4447-8e61-6f4d87341afb",
+      "PWM_Enable1"
+    ],
+    [
+      "842312e6-ed4a-451d-8be5-48044da0ce66",
+      "PWM_Enable2"
+    ],
+    [
+      "6516471c-06b4-450f-92e6-ef2f24c71b06",
+      "PWM_Enable3"
+    ],
+    [
+      "392cb4e1-0083-4fbc-9fc8-96d73217bf1d",
+      "PWM_Enable4"
+    ],
+    [
+      "213acd10-1793-4351-82a9-bd01a853b0f8",
+      "PWM_Enable5"
+    ],
+    [
+      "2d97677d-357e-4476-a225-4c9ad0886b13",
+      "SR_Latch"
     ],
     [
       "38847109-bed8-4222-8575-ebf8bfc19959",

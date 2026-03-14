@@ -4,27 +4,36 @@
 	(generator_version "9.0")
 	(uuid "360d7644-009b-4627-a5ef-93cd31511c06")
 	(paper "A4")
+	(title_block
+		(title "INV_Discrete_Controller")
+		(date "2026-03-15")
+		(rev "1.1")
+		(company "NTURacing")
+		(comment 1 "LY Chen")
+		(comment 2 "Jack Kuo")
+	)
 	(lib_symbols
-		(symbol "Device:R"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,7 +41,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,12 +85,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -89,10 +98,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -109,8 +118,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -538,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 100.33 73.66)
+			(xy 97.79 73.66) (xy 101.6 73.66)
 		)
 		(stroke
 			(width 0)
@@ -558,13 +567,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 110.49 73.66)
+			(xy 106.68 73.66) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f81d3de-e0db-4eda-aebf-44d4795569e0")
+		(uuid "3ec4e168-0c20-49ae-ab35-b4d45fe25bff")
 	)
 	(wire
 		(pts
@@ -639,7 +648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774fcb47-b0f7-47e8-88ab-d423eb0b8800")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 114.3 86.3599 0)
 			(effects
 				(font
@@ -726,7 +735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 104.14 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -735,8 +744,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acef98d4-3f65-415f-ae5d-577c62e5517b")
-		(property "Reference" "R80"
-			(at 104.14 67.31 90)
+		(property "Reference" "R94"
+			(at 104.14 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +753,7 @@
 			)
 		)
 		(property "Value" "510R"
-			(at 104.14 69.85 90)
+			(at 104.14 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +761,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 71.882 90)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 104.14 73.66 0)
 			(effects
 				(font
@@ -823,7 +832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc1f36d-ea6c-4229-8882-2a8cb7676eed")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0186"
 			(at 110.49 100.33 0)
 			(effects
 				(font

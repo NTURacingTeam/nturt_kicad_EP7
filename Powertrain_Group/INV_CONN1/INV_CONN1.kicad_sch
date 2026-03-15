@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_CONN1")
-		(date "2026-03-04")
-		(rev "1.0")
+		(date "2026-03-16")
+		(rev "1.1")
 		(company "NTURacing")
 		(comment 1 "Jack Kuo")
 	)
@@ -1156,7 +1156,7 @@
 		)
 		(uuid "60ceae51-4ab6-43eb-9555-2dc11c5bdba7")
 	)
-	(text "V1.0 init"
+	(text "V1.0 init\nV1.1 modify layout"
 		(exclude_from_sim no)
 		(at 111.76 111.506 0)
 		(effects

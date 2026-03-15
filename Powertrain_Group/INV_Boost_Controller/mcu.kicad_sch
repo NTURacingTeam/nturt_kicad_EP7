@@ -13801,7 +13801,7 @@
 				)
 			)
 		)
-		(property "Value" "48MHz YF4048M00033T8188103"
+		(property "Value" "X322516MLB4SI (16MHz)"
 			(at 146.05 81.28 90)
 			(effects
 				(font

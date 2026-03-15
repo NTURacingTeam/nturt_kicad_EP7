@@ -5775,7 +5775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k 1%"
+		(property "Value" "47k"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -7017,7 +7017,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED 5V"
+		(property "Value" "WHITE 5V"
 			(at 205.74 91.7574 90)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 		(fields_autoplaced yes)
 		(uuid "734aa8ea-17fb-4304-84fe-c7005b58eff4")
 		(property "Reference" "D7"
-			(at 233.68 133.6675 90)
+			(at 233.68 133.6674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,8 +7771,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED 3V3"
-			(at 233.68 136.2075 90)
+		(property "Value" "WHITE 3V3"
+			(at 233.68 136.2074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +8868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k 1%"
+		(property "Value" "15k"
 			(at 111.76 99.06 0)
 			(effects
 				(font

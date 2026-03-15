@@ -2235,6 +2235,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V1.0 init by Shinkansen942\nV1.1 modify by Jack Kuo"
+		(exclude_from_sim no)
+		(at 27.868 64.7318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aeef1db8-ddbc-412a-9675-75ad332dd715")
+	)
 	(junction
 		(at 105.41 132.08)
 		(diameter 0)

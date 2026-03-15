@@ -618,7 +618,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V1.0 init"
+	(text "V1.0 init\n     3/16 change res for buck fb\n\n\nnote: remember to add logo next time\n      add meassure angle indication next time\n      maybe can have more led in the future"
 		(exclude_from_sim no)
 		(at 59.436 43.942 0)
 		(effects

@@ -1853,6 +1853,16 @@
 		)
 		(uuid d1ff2d7f-7da8-4bff-b4e2-e4e92bcc880b)
 	)
+	(text "LMR50410 is 700k\nreplace with LMR5140 for 1.1Mhz"
+		(exclude_from_sim no)
+		(at 68.834 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0575f2f7-8fe5-49b8-919b-4ef769227596")
+	)
 	(text "FB: 1V"
 		(exclude_from_sim no)
 		(at 83.312 99.822 0)
@@ -2696,7 +2706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "18k"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -2831,7 +2841,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9k1"
+		(property "Value" "75k"
 			(at 125.73 99.06 0)
 			(effects
 				(font

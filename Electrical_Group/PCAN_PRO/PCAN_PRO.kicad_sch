@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "PCAN_PRO")
-		(date "2026-03-04")
-		(rev "1.0")
+		(date "2026-03-16")
+		(rev "1.1")
 		(company "NTURacing")
 		(comment 1 "Shinkansen")
 	)
@@ -7383,7 +7383,7 @@
 		)
 		(uuid "67c16d45-adad-4fe9-ba58-f16b9c675910")
 	)
-	(text "V1.0 init by Shinkansen942\nV1.1 add 0R to VIO for TCAN\n     modify layout\n     add external components to ep7 lib\n     by Jack Kuo"
+	(text "V1.0 init by Shinkansen942\nV1.1 add 0R to VIO for TCAN\n     modify layout\n     add external components to ep7 lib\n     by Jack Kuo\n     3/16 add fillet to cut after prev git commit\n     3/16 change 20R to 22R"
 		(exclude_from_sim no)
 		(at 220.726 175.26 0)
 		(effects
@@ -7414,6 +7414,32 @@
 			(justify left top)
 		)
 		(uuid "cff3e56e-90f9-4287-815b-4651e7211c14")
+	)
+	(text "22u10V->10u6.5V in jlc"
+		(exclude_from_sim no)
+		(at 25.146 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "fcf81112-b337-4f24-98cf-77bf460e13f6")
+	)
+	(text "15n -> 22n in jlc"
+		(exclude_from_sim no)
+		(at 26.162 192.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "fd8da706-ec1f-410c-a578-889c633eacd1")
 	)
 	(junction
 		(at 207.01 35.56)
@@ -12822,7 +12848,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "22R"
 			(at 53.975 257.175 90)
 			(effects
 				(font
@@ -13434,7 +13460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u 10V"
+		(property "Value" "2u2"
 			(at 153.67 127 0)
 			(effects
 				(font
@@ -15165,7 +15191,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "22R"
 			(at 53.975 215.265 90)
 			(effects
 				(font
@@ -17588,7 +17614,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "122R"
 			(at 109.22 207.01 90)
 			(effects
 				(font
@@ -17885,7 +17911,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "22R"
 			(at 271.78 74.93 90)
 			(effects
 				(font
@@ -18981,7 +19007,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "22R"
 			(at 53.975 219.075 90)
 			(effects
 				(font
@@ -19454,7 +19480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u 10V"
+		(property "Value" "2u2"
 			(at 142.24 127 0)
 			(effects
 				(font
@@ -20379,7 +20405,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "22R"
 			(at 271.78 82.55 90)
 			(effects
 				(font
@@ -20718,7 +20744,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "22R"
 			(at 53.975 260.985 90)
 			(effects
 				(font
@@ -21128,7 +21154,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "122R"
 			(at 107.95 248.92 90)
 			(effects
 				(font

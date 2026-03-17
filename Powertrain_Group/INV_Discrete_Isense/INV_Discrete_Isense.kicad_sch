@@ -2083,7 +2083,7 @@
 		)
 		(uuid "42c1657d-bc55-411e-8547-3504a0c3ec42")
 	)
-	(text "V1.0 init by Kyle Ho\nV1.1 modify by Jack Kuo\nV1.2 modify by Keyle Ho"
+	(text "V1.0 init by Kyle Ho\nV1.1 modify by Jack Kuo\nV1.2 modify by Keyle Ho\n     3/17 change gain 1 to 2"
 		(exclude_from_sim no)
 		(at 187.9123 54.5657 0)
 		(effects

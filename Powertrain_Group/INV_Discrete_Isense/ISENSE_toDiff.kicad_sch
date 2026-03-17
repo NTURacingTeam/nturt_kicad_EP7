@@ -748,7 +748,7 @@
 		)
 		(uuid "77bb26ce-3c84-4d1f-b9b1-8eaebd28870e")
 	)
-	(text "gain is 1"
+	(text "gain is 2"
 		(exclude_from_sim no)
 		(at 115.57 58.674 0)
 		(effects
@@ -1838,7 +1838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTC6363-1"
+		(property "Value" "LTC6363-2"
 			(at 108.8233 44.45 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Discrete_Iso")
-		(date "2026-03-14")
-		(rev "1.1")
+		(date "2026-03-18")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "LY Chen")
 		(comment 2 "Jack Kuo")
@@ -1934,9 +1934,9 @@
 		)
 		(uuid be15c27a-cd06-42a2-ab0f-f17d1afe17af)
 	)
-	(text "V1.0 init by LY Chen\nV1.1 modify by Jack Kuo"
+	(text "V1.0 init by LY Chen\nV1.1 modify by Jack Kuo\nV1.2 the connector to controller position was wrong, fixed it to match controller board"
 		(exclude_from_sim no)
-		(at 212.344 86.36 0)
+		(at 190.754 64.516 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4542,7 +4542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W_ISOPWR_L"
+		(property "Value" "V_ISOPWR_L"
 			(at 154.94 116.8399 0)
 			(effects
 				(font

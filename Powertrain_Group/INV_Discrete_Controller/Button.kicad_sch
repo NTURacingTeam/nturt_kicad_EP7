@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Discrete_Controller")
-		(date "2026-03-15")
-		(rev "1.1")
+		(date "2026-03-17")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "LY Chen")
 		(comment 2 "Jack Kuo")
@@ -1613,7 +1613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 139.7 100.3362 0)
 			(effects
 				(font
@@ -1768,7 +1768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 157.48 92.7162 0)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 105.41 99.06 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 123.19 99.0599 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Discrete_Controller")
-		(date "2026-03-15")
-		(rev "1.1")
+		(date "2026-03-17")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "LY Chen")
 		(comment 2 "Jack Kuo")
@@ -1043,7 +1043,17 @@
 		)
 		(uuid "04d5d19b-2e0e-4f28-a5fc-f91f39be7a98")
 	)
-	(text "3.3v * ${Res2} / ${Res1}+${Res2} = 2.66V"
+	(text "3.3v * ${Res1} / ${Res1}+${Res2} = 0.191V"
+		(exclude_from_sim no)
+		(at 81.28 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "312e2fd3-029d-4329-ac9b-941fcf029a83")
+	)
+	(text "3.3v * ${Res2} / ${Res1}+${Res2} =3.109V"
 		(exclude_from_sim no)
 		(at 86.106 70.358 0)
 		(effects
@@ -1052,16 +1062,6 @@
 			)
 		)
 		(uuid "7dd8ccd3-a671-4eb0-bb4b-c2afa087c5b5")
-	)
-	(text "3.3v * 2.4 / 12.4 = 0.638v\n"
-		(exclude_from_sim no)
-		(at 86.614 130.302 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "caca3363-c4b7-423e-95fe-f9b81005abed")
 	)
 	(text "1 if (V > 0.637) & (V<2.66)\n0 if (V > 2.66) || (V < 0.638) (pull down when overcurrent)"
 		(exclude_from_sim no)

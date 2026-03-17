@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Discrete_Controller")
-		(date "2026-03-15")
-		(rev "1.1")
+		(date "2026-03-17")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "LY Chen")
 		(comment 2 "Jack Kuo")
@@ -886,9 +886,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Vout = (2R2/(2R1 + R2))* Vin"
+	(text "Vout = (1+100k/${Res2}))* Vin = 1.1"
 		(exclude_from_sim no)
-		(at 87.63 59.69 0)
+		(at 114.554 66.802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -897,7 +897,7 @@
 		)
 		(uuid "68499fdf-e3ba-4c8d-9721-3fac8c67a3c2")
 	)
-	(text "R1 : ${Res1} \nR2 : ${Res2}\nR3 : ${Res3}\ngain = 1+100k/${Res3} = 1.2325"
+	(text "R1 : ${Res1} \nR2 : ${Res2}\ngain = 1+100k/${Res2} = 1.2325"
 		(exclude_from_sim no)
 		(at 157.988 85.852 0)
 		(effects

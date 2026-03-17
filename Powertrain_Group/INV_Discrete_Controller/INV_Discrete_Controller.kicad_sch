@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Discrete_Controller")
-		(date "2026-03-15")
-		(rev "1.1")
+		(date "2026-03-17")
+		(rev "1.2")
 		(company "NTURacing")
 		(comment 1 "LY Chen")
 		(comment 2 "Jack Kuo")
@@ -2901,7 +2901,7 @@
 		)
 		(uuid "10ff9e46-3591-4cd4-87c1-e5e5d37f6faa")
 	)
-	(text "V1.0 init by LY Chen\nV1.1 modify by Jack Kuo"
+	(text "V1.0 init by LY Chen\nV1.1 modify by Jack Kuo\nV1.2 modify by Jack Kuo"
 		(exclude_from_sim no)
 		(at 126.746 143.002 0)
 		(effects
@@ -3084,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 62.23) (xy 135.89 62.23)
+			(xy 128.27 62.23) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 147.32 77.47)
+			(xy 128.27 77.47) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 147.32 86.36)
+			(xy 128.27 86.36) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3724,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 83.82) (xy 147.32 83.82)
+			(xy 128.27 83.82) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3794,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 147.32 57.15)
+			(xy 128.27 57.15) (xy 147.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 74.93) (xy 147.32 74.93)
+			(xy 128.27 74.93) (xy 147.32 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3834,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 140.97 64.77)
+			(xy 128.27 64.77) (xy 140.97 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3864,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 147.32 81.28)
+			(xy 128.27 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3954,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 59.69) (xy 129.54 59.69)
+			(xy 128.27 59.69) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4054,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 147.32 72.39)
+			(xy 128.27 72.39) (xy 147.32 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4064,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 69.85) (xy 147.32 69.85)
+			(xy 128.27 69.85) (xy 147.32 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 83.82) (xy 101.6 83.82)
+			(xy 87.63 83.82) (xy 104.14 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4294,7 +4294,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 86.36) (xy 101.6 86.36)
+			(xy 87.63 86.36) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8846,7 +8846,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 48.26)
+		(at 104.14 48.26)
 		(size 24.13 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8862,7 +8862,7 @@
 		)
 		(uuid "7a384306-cee6-440f-9049-399d2baa3519")
 		(property "Sheetname" "Isense&motT_OCP&OTP"
-			(at 101.6 47.5484 0)
+			(at 104.14 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +8871,7 @@
 			)
 		)
 		(property "Sheetfile" "Isense_OCP.kicad_sch"
-			(at 101.6 90.7546 0)
+			(at 104.14 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8880,7 @@
 			)
 		)
 		(pin "Isense_U" output
-			(at 125.73 59.69 0)
+			(at 128.27 59.69 0)
 			(uuid "735e3561-ac4a-4cb2-b319-659354efa194")
 			(effects
 				(font
@@ -8890,7 +8890,7 @@
 			)
 		)
 		(pin "Isense_DC" output
-			(at 125.73 57.15 0)
+			(at 128.27 57.15 0)
 			(uuid "50815315-e718-4d11-bf68-97470a96d01a")
 			(effects
 				(font
@@ -8900,7 +8900,7 @@
 			)
 		)
 		(pin "Isense_V" output
-			(at 125.73 62.23 0)
+			(at 128.27 62.23 0)
 			(uuid "dc732d3d-e69c-44bb-a394-bfd0b28ece57")
 			(effects
 				(font
@@ -8910,7 +8910,7 @@
 			)
 		)
 		(pin "Isense_W" output
-			(at 125.73 64.77 0)
+			(at 128.27 64.77 0)
 			(uuid "d0d9878b-f51f-4eab-8dcd-7df5ffc3f576")
 			(effects
 				(font
@@ -8920,7 +8920,7 @@
 			)
 		)
 		(pin "Temp_mot" output
-			(at 125.73 69.85 0)
+			(at 128.27 69.85 0)
 			(uuid "9124119c-e7d0-48e2-a782-a82d7fa09916")
 			(effects
 				(font
@@ -8930,7 +8930,7 @@
 			)
 		)
 		(pin "Vref_3V3" input
-			(at 125.73 83.82 0)
+			(at 128.27 83.82 0)
 			(uuid "c74b48bc-b16b-45a7-b24c-8ade85815ec4")
 			(effects
 				(font
@@ -8940,7 +8940,7 @@
 			)
 		)
 		(pin "I_U+" input
-			(at 101.6 57.15 180)
+			(at 104.14 57.15 180)
 			(uuid "40385d17-9d1d-4199-9b4a-62ee69b0200a")
 			(effects
 				(font
@@ -8950,7 +8950,7 @@
 			)
 		)
 		(pin "I_U-" input
-			(at 101.6 59.69 180)
+			(at 104.14 59.69 180)
 			(uuid "6db1516a-e1e9-4e7a-add3-d2d901d6b7ca")
 			(effects
 				(font
@@ -8960,7 +8960,7 @@
 			)
 		)
 		(pin "I_V+" input
-			(at 101.6 67.31 180)
+			(at 104.14 67.31 180)
 			(uuid "1258d0b1-cf62-4b7c-b82e-d8e81adde5da")
 			(effects
 				(font
@@ -8970,7 +8970,7 @@
 			)
 		)
 		(pin "I_V-" input
-			(at 101.6 69.85 180)
+			(at 104.14 69.85 180)
 			(uuid "f1032a5d-1a7c-41a3-8ffb-637b7ded7403")
 			(effects
 				(font
@@ -8980,7 +8980,7 @@
 			)
 		)
 		(pin "I_W+" input
-			(at 101.6 77.47 180)
+			(at 104.14 77.47 180)
 			(uuid "ce2a781a-152b-484a-8475-e9fd40552c1c")
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 			)
 		)
 		(pin "I_W-" input
-			(at 101.6 80.01 180)
+			(at 104.14 80.01 180)
 			(uuid "8f849f3f-6852-49e0-a6ad-b18267e55898")
 			(effects
 				(font
@@ -9000,7 +9000,7 @@
 			)
 		)
 		(pin "OC&OT_Falut" output
-			(at 125.73 86.36 0)
+			(at 128.27 86.36 0)
 			(uuid "6e736a9c-ad69-4387-88e6-b6392a486118")
 			(effects
 				(font
@@ -9010,7 +9010,7 @@
 			)
 		)
 		(pin "Vref_1.65V" input
-			(at 125.73 81.28 0)
+			(at 128.27 81.28 0)
 			(uuid "f90e3aa7-a35b-428a-b0fe-1aa28eea253a")
 			(effects
 				(font
@@ -9020,7 +9020,7 @@
 			)
 		)
 		(pin "T_U" output
-			(at 125.73 72.39 0)
+			(at 128.27 72.39 0)
 			(uuid "11c7e3c3-8fd7-4db6-9265-156814b7c7c7")
 			(effects
 				(font
@@ -9030,7 +9030,7 @@
 			)
 		)
 		(pin "T_V" output
-			(at 125.73 74.93 0)
+			(at 128.27 74.93 0)
 			(uuid "584aa12c-be9a-4c4c-aa79-37043ad909a6")
 			(effects
 				(font
@@ -9040,7 +9040,7 @@
 			)
 		)
 		(pin "T_W" output
-			(at 125.73 77.47 0)
+			(at 128.27 77.47 0)
 			(uuid "2936c121-dcd7-4c59-b52f-b2f226fc6f2a")
 			(effects
 				(font
@@ -9050,7 +9050,7 @@
 			)
 		)
 		(pin "mot_T+" input
-			(at 101.6 83.82 180)
+			(at 104.14 83.82 180)
 			(uuid "4d41e191-5097-4a9a-995a-f2a56eb1eea0")
 			(effects
 				(font
@@ -9060,7 +9060,7 @@
 			)
 		)
 		(pin "mot_T-" input
-			(at 101.6 86.36 180)
+			(at 104.14 86.36 180)
 			(uuid "8155c5ab-09a3-4145-8131-5d815cdb08ea")
 			(effects
 				(font
@@ -9265,7 +9265,7 @@
 				(justify left)
 			)
 		)
-		(property "Res2" "10M"
+		(property "Res2" "1M"
 			(at 112.522 114.046 0)
 			(show_name yes)
 			(effects

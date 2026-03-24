@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "INV_Discrete_Isense")
-		(date "2026-03-16")
-		(rev "1.2")
+		(date "2026-03-24")
+		(rev "1.3")
 		(company "NTURacing")
 		(comment 1 "Kyle ho")
 		(comment 2 "Jack Kuo")
@@ -2083,7 +2083,7 @@
 		)
 		(uuid "42c1657d-bc55-411e-8547-3504a0c3ec42")
 	)
-	(text "V1.0 init by Kyle Ho\nV1.1 modify by Jack Kuo\nV1.2 modify by Keyle Ho\n     3/17 change gain 1 to 2"
+	(text "V1.0 init by Kyle Ho\nV1.1 modify by Jack Kuo\nV1.2 modify by Keyle Ho\n     3/17 change gain 1 to 2\nV1.3 remove amplifier"
 		(exclude_from_sim no)
 		(at 187.9123 54.5657 0)
 		(effects
@@ -2244,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 68.58) (xy 96.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035baaf6-fa02-424c-8b92-cd82380dd825")
+	)
+	(wire
+		(pts
 			(xy 25.4 83.82) (xy 31.75 83.82)
 		)
 		(stroke
@@ -2321,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "1fadf7ec-4216-47b7-94c6-545e124b971e")
+	)
+	(wire
+		(pts
+			(xy 86.36 39.37) (xy 96.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc35602-35e3-4305-8b46-77a39c36a2cb")
 	)
 	(wire
 		(pts
@@ -2564,6 +2584,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 44.45) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d96f78-8e82-467a-a200-0897076715a3")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a9c0cb-d85d-473a-b398-0ccc48749525")
+	)
+	(wire
+		(pts
 			(xy 166.37 152.4) (xy 165.1 152.4)
 		)
 		(stroke
@@ -2701,6 +2741,16 @@
 			(type default)
 		)
 		(uuid "8dafaf88-48d1-4cb6-af49-c291dd59664e")
+	)
+	(wire
+		(pts
+			(xy 86.36 87.63) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db0731d-17d4-4e2b-bc44-d2491b405ce0")
 	)
 	(wire
 		(pts
@@ -2851,6 +2901,16 @@
 			(type default)
 		)
 		(uuid "ce823682-d519-4629-b560-bf98f1a5a799")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 96.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3be9228-98fa-4bc8-90fb-a6c2b75de59f")
 	)
 	(wire
 		(pts
@@ -3013,7 +3073,7 @@
 		(uuid "1aae29e7-5639-4170-a936-4b607fc21ac7")
 	)
 	(label "U_ref"
-		(at 78.74 44.45 180)
+		(at 86.36 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3103,7 +3163,7 @@
 		(uuid "717f80e3-0cb8-4dc7-8928-8eb56d2b5aff")
 	)
 	(label "W_ref"
-		(at 78.74 92.71 180)
+		(at 86.36 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3143,7 +3203,7 @@
 		(uuid "917d3d5f-5107-4a2b-b437-1f0aea2871c6")
 	)
 	(label "W_sense"
-		(at 78.74 87.63 180)
+		(at 86.36 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3213,7 +3273,7 @@
 		(uuid "c60e3042-f442-4324-9ce2-d11cc3abdb04")
 	)
 	(label "V_ref"
-		(at 78.74 68.58 180)
+		(at 86.36 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3223,7 +3283,7 @@
 		(uuid "d6a4592a-2a38-463f-95ae-770bd3fc2eb2")
 	)
 	(label "U_sense"
-		(at 78.74 39.37 180)
+		(at 86.36 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,7 +3313,7 @@
 		(uuid "f5254af2-a9fc-4dc3-9b36-6dfd80139cd1")
 	)
 	(label "V_sense"
-		(at 78.74 63.5 180)
+		(at 86.36 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5956,252 +6016,6 @@
 				(path "/1d817fde-8920-4bae-8603-e066193ea7e9"
 					(reference "J6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 78.74 35.56)
-		(size 17.78 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8a05ec6d-5110-405c-baad-2e727af38d33")
-		(property "Sheetname" "U"
-			(at 78.74 34.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ISENSE_toDiff.kicad_sch"
-			(at 78.74 48.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V_in" input
-			(at 78.74 39.37 180)
-			(uuid "a389bd0c-8040-4142-a302-9935c5608a3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_ref" input
-			(at 78.74 44.45 180)
-			(uuid "b3acb203-b837-49fb-b758-21c3de7edb17")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_out+" output
-			(at 96.52 39.37 0)
-			(uuid "53814144-d473-4179-8516-34d5558a9a0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_out-" output
-			(at 96.52 44.45 0)
-			(uuid "b91104db-bf82-4e6b-85ef-e20b01118035")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "INV_Discrete_Isense"
-				(path "/1d817fde-8920-4bae-8603-e066193ea7e9"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 78.74 59.69)
-		(size 17.78 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a5ffc86c-99ca-4ea2-bb5a-e7d2f79d91a2")
-		(property "Sheetname" "V"
-			(at 78.74 58.9784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ISENSE_toDiff.kicad_sch"
-			(at 78.74 72.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V_in" input
-			(at 78.74 63.5 180)
-			(uuid "bb8945c7-b97c-46be-aa29-f8bd8c361fc5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_ref" input
-			(at 78.74 68.58 180)
-			(uuid "7a3c884c-ecf9-4596-a624-a180dc9131e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_out+" output
-			(at 96.52 63.5 0)
-			(uuid "1dbd89cb-4e71-45f2-bec6-206bca29e5da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_out-" output
-			(at 96.52 68.58 0)
-			(uuid "5236f667-f1af-44f3-ade2-09ce77822608")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "INV_Discrete_Isense"
-				(path "/1d817fde-8920-4bae-8603-e066193ea7e9"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 78.74 83.82)
-		(size 17.78 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e3f36e74-5521-4ba0-bdad-ea89413ebf49")
-		(property "Sheetname" "W"
-			(at 78.74 83.1084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ISENSE_toDiff.kicad_sch"
-			(at 78.74 97.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V_in" input
-			(at 78.74 87.63 180)
-			(uuid "21cf420d-6cb0-4ae4-9faf-2e5fc6623747")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_ref" input
-			(at 78.74 92.71 180)
-			(uuid "bd64d1be-3999-4238-9cfa-ef0c7dbf531a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_out+" output
-			(at 96.52 87.63 0)
-			(uuid "0bd96991-5eef-4f75-b8e4-e7da2be815ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_out-" output
-			(at 96.52 92.71 0)
-			(uuid "cf58fbc6-a6ea-43e7-bb14-e32a9d297efa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "INV_Discrete_Isense"
-				(path "/1d817fde-8920-4bae-8603-e066193ea7e9"
-					(page "4")
 				)
 			)
 		)

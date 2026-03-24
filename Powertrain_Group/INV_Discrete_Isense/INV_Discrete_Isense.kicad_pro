@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "INV_Discrete_Isense.step",
       "svg": "",
       "vrml": ""
     },
@@ -626,18 +626,6 @@
     [
       "1d817fde-8920-4bae-8603-e066193ea7e9",
       "Root"
-    ],
-    [
-      "8a05ec6d-5110-405c-baad-2e727af38d33",
-      "U"
-    ],
-    [
-      "a5ffc86c-99ca-4ea2-bb5a-e7d2f79d91a2",
-      "V"
-    ],
-    [
-      "e3f36e74-5521-4ba0-bdad-ea89413ebf49",
-      "W"
     ]
   ],
   "text_variables": {}

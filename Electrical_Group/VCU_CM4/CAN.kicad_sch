@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "VCU_CM4")
-		(date "2026-05-22")
-		(rev "1.0")
+		(date "2026-05-23")
+		(rev "1.1")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -1482,6 +1482,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "can replace with TCAN1057AV\n(note only the \"AV\" version has VDDIO for 3.3V\nthe \"A\" version does not support VDDIO)"
+		(exclude_from_sim no)
+		(at 115.824 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8917aaa2-6330-4fa8-9e71-4abee8058594")
 	)
 	(junction
 		(at 162.56 88.9)

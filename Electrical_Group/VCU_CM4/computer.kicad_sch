@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "VCU_CM4")
-		(date "2026-05-22")
-		(rev "1.0")
+		(date "2026-05-23")
+		(rev "1.1")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -2098,7 +2098,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV75733PDRV"
+		(symbol "Regulator_Linear:TLV75733PDBV"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2113,7 +2113,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV75733PDRV"
+			(property "Value" "TLV75733PDBV"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -2122,7 +2122,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 8.255 0)
 				(effects
 					(font
@@ -2141,7 +2141,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
+			(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2159,7 +2159,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2168,7 +2168,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV75733PDRV_0_1"
+			(symbol "TLV75733PDBV_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -2181,7 +2181,7 @@
 					)
 				)
 			)
-			(symbol "TLV75733PDRV_1_1"
+			(symbol "TLV75733PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2192,7 +2192,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2210,7 +2210,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2228,26 +2228,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2266,26 +2247,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2303,7 +2265,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3782,6 +3744,20 @@
 			)
 		)
 		(uuid "80be18a3-015c-4cee-a02c-91cc0c7899df")
+	)
+	(text "NOTE!!!\nremember to change the cs pins in future versions\nchange to hardware cs pins for easier dtoverlay for cm4"
+		(exclude_from_sim no)
+		(at 175.006 155.194 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cb7eb0ae-d106-4394-8e86-3d1e120b33e3")
 	)
 	(text "from CM4 IO board shcematic"
 		(exclude_from_sim no)
@@ -13408,7 +13384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75733PDRV")
+		(lib_id "Regulator_Linear:TLV75733PDBV")
 		(at 163.83 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13425,7 +13401,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75733PDRV"
+		(property "Value" "TLV75733"
 			(at 163.83 27.94 0)
 			(effects
 				(font
@@ -13433,7 +13409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 163.83 26.035 0)
 			(effects
 				(font
@@ -13452,7 +13428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 			(at 163.83 34.29 0)
 			(effects
 				(font
@@ -13491,14 +13467,8 @@
 		(pin "3"
 			(uuid "3e41a23d-8027-4f0d-87d5-ccf14ad91875")
 		)
-		(pin "6"
-			(uuid "ee2cf861-86fb-4276-87dc-00d684716c98")
-		)
 		(pin "4"
 			(uuid "ffd2a8f7-028d-48f5-a96d-8960ed1a4356")
-		)
-		(pin "7"
-			(uuid "5fd7e5c5-578b-4cfb-870b-2539162dfa19")
 		)
 		(instances
 			(project "VCU_CM4"
@@ -14936,7 +14906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75733PDRV")
+		(lib_id "Regulator_Linear:TLV75733PDBV")
 		(at 158.75 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14953,7 +14923,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75733PDRV"
+		(property "Value" "TLV75733"
 			(at 158.75 63.5 0)
 			(effects
 				(font
@@ -14961,7 +14931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 158.75 61.595 0)
 			(effects
 				(font
@@ -14980,7 +14950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 			(at 158.75 69.85 0)
 			(effects
 				(font
@@ -15019,14 +14989,8 @@
 		(pin "3"
 			(uuid "c0a6f3b0-2d17-40da-872a-3d97a2172f08")
 		)
-		(pin "6"
-			(uuid "a7a77104-d73e-44dd-b3b1-a7c1fdc2df23")
-		)
 		(pin "4"
 			(uuid "c413ada8-df69-4557-aa90-707e7cb6d24b")
-		)
-		(pin "7"
-			(uuid "745c268f-6b72-4595-af0d-b998c9f29f8e")
 		)
 		(instances
 			(project "VCU_CM4"
@@ -16612,7 +16576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75733PDRV")
+		(lib_id "Regulator_Linear:TLV75733PDBV")
 		(at 158.75 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16629,7 +16593,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75733PDRV"
+		(property "Value" "TLV75733"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -16637,7 +16601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 158.75 93.345 0)
 			(effects
 				(font
@@ -16656,7 +16620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 			(at 158.75 101.6 0)
 			(effects
 				(font
@@ -16695,14 +16659,8 @@
 		(pin "3"
 			(uuid "6b6f0f16-9e45-45c3-a443-8b7e1ccf862a")
 		)
-		(pin "6"
-			(uuid "f5a56714-7191-4052-8218-3ea608313210")
-		)
 		(pin "4"
 			(uuid "f6d1015c-aa90-4740-bc4b-21509c0e3c62")
-		)
-		(pin "7"
-			(uuid "e98aa728-bbdb-4afe-85d9-ad14f1242536")
 		)
 		(instances
 			(project "VCU_CM4"

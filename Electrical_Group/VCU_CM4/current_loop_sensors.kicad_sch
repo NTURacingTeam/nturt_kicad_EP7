@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "VCU_CM4")
-		(date "2026-05-22")
-		(rev "1.0")
+		(date "2026-05-23")
+		(rev "1.1")
 		(company "NTURacing Team")
 		(comment 1 "Jack Kuo")
 		(comment 2 "Jerry mk")
@@ -2604,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 129.54 39.37)
+			(xy 129.54 25.4) (xy 129.54 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2941,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "9c5830a2-c7a1-4076-9637-9b0c100f39e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 34.29) (xy 129.54 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf8ae51-d38e-4763-87e8-f2a9e3f6c185")
 	)
 	(wire
 		(pts
@@ -5237,6 +5247,76 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
+		(at 129.54 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40f80aff-91f1-4d8d-9213-0e467e73584b")
+		(property "Reference" "F26"
+			(at 130.81 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5A"
+			(at 130.81 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 129.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9884715-6cf8-4db0-b08c-fd4cf589725e")
+		)
+		(pin "2"
+			(uuid "83ba6e47-e870-4f5b-9136-f21d8a5aec7e")
+		)
+		(instances
+			(project "VCU_CM4"
+				(path "/eb296f24-894e-4ea0-b0cd-3ba211155378/59ca343a-7d66-4d76-8c27-2a427ae9c4b3/553e4d5b-d7d4-4625-993b-7bf191101b33"
+					(reference "F26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
 		(at 95.25 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6108,7 +6188,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 129.54 33.02 0)
+		(at 129.54 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6117,7 +6197,7 @@
 		(fields_autoplaced yes)
 		(uuid "763f724c-4d1a-4625-9b93-491aaa9351cb")
 		(property "Reference" "#PWR0126"
-			(at 129.54 36.83 0)
+			(at 129.54 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6206,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 129.54 28.575 0)
+			(at 129.54 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 33.02 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 33.02 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 129.54 33.02 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x30_Socket"
+		(property "Value" "current_loops"
 			(at 52.07 87.6301 0)
 			(effects
 				(font

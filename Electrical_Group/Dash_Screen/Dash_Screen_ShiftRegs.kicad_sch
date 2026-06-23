@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Dash_Screen")
-		(date "2026-05-23")
-		(rev "1.0")
+		(date "2026-06-10")
+		(rev "2.0")
 		(company "NTURacing")
 		(comment 1 "郭哲明")
 		(comment 2 "electrical group")

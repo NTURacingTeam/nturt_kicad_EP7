@@ -518,7 +518,8 @@
       "/Dash_Screen_ShiftRegs/RCLK": "rgb(0, 255, 255)",
       "/Dash_Screen_ShiftRegs/SER": "rgb(255, 255, 0)",
       "/Dash_Screen_ShiftRegs/SRCLK": "rgb(255, 153, 0)",
-      "GND": "rgb(194, 194, 194)"
+      "GND": "rgb(194, 194, 194)",
+      "unconnected-(U17-B3-Pad19)": "rgb(255, 255, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
